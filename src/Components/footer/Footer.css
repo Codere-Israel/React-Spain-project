@@ -1,0 +1,206 @@
+
+
+
+
+.footerLinks {
+  display: flex;
+} 
+
+.nb-footer .about {
+  margin: 0 auto;
+  margin-top: 40px;
+  max-width: 1170px;
+  text-align: center;
+}
+
+.nb-footer .about .social-media {
+  margin-top: 10px;
+}
+
+.about .social-media ul li a {
+  display: inline-block;
+  width: 46px;
+  background-color: #fff;
+  height: 46px;
+  line-height: 45px;
+  border-radius: 50%;
+  text-decoration: none;
+  font-size: 25px;
+  color: #79c000;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  -webkit-box-shadow: 0px 4px 9px -2px rgba(0, 0, 0, 0.71);
+  box-shadow: 0px 0px 5px 1px rgba(255, 255, 255, 0.71);
+}
+
+.list-inline li {
+  display: inline-flex;
+  padding-left: 1vw;
+}
+
+.list-inline li:nth-child(1) {
+  padding-left: 0;
+}
+
+.fa-comments,
+.fa-headset {
+  color: #252a30;
+}
+
+.fa-facebook-f {
+  color: #4267b2;
+}
+
+.fa-twitter {
+  color: #4267b2;
+}
+
+.fa-youtube {
+  color: #ff0000;
+}
+
+.fa-instagram {
+  color: #d6249f;
+}
+
+.nb-footer .about .social-media ul li a:hover {
+  background: #fff;
+  color: #fff;
+}
+
+.nb-footer .footer-info-single {
+  margin-top: 30px;
+  padding-left: 4vw;
+}
+
+.nb-footer .footer-info-single .title {
+  color: #79c000;
+  text-transform: uppercase;
+  font-size: 16px;
+  /* border-left: 4px solid #79c000;
+  padding-left: 5px; */
+  font-weight: 500;
+}
+
+.nb-footer .footer-info-single ul li a {
+  display: block;
+  color: #fff;
+  padding: 2px 0;
+  text-decoration: none;
+}
+
+.nb-footer .footer-info-single ul li a:hover {
+  color: #79c000;
+}
+
+.nb-footer .footer-info-single p {
+  font-size: 13px;
+  line-height: 20px;
+  color: #aaa;
+}
+
+#legals {
+  margin: auto;
+  display: flex;
+  width: 60%;
+  font-size: 0.7vw;
+  line-height: 25px;
+  text-align: left;
+  color: #a1a4a6;
+}
+
+#legals img {
+  position: relative;
+  width: 2vw;
+  margin-right: 1vw;
+}
+
+.sponsors {
+  margin: auto;
+  margin-top: 3vw;
+  align-items: center;
+  /* width: 55%; */
+}
+
+.sponsors img {
+  height: auto;
+  width: 6vw;
+  margin-left: 2vw;
+}
+
+.juegas-banners {
+  margin-bottom: 1rem;
+}
+
+.juegas-banners .col,
+.apps .col {
+  text-align: center;
+}
+
+.juegas-banners img {
+  max-height: 1.5rem;
+  padding-left: 2vw;
+}
+
+.juegas-banners a:nth-child(2) img {
+  max-width: auto;
+  max-height: 3rem;
+}
+
+.apps a:nth-child(1) img {
+  height: 3rem;
+}
+
+.apps a:nth-child(2) img {
+  height: 4.5rem;
+  padding-left: 0.5vw;
+}
+
+.progress-wrap {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  height: 46px;
+  width: 46px;
+  cursor: pointer;
+  display: block;
+  border-radius: 50px;
+  box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.1);
+  z-index: 10000;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(15px);
+  -webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
+}
+.progress-wrap.active-progress {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+.progress-arrow {
+  position: absolute;
+  text-align: center;
+  color: #79c000;
+  left: calc((46px - 30px) / 2);
+  top: calc((46px - 30px) / 2);
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  display: block;
+  z-index: 2;
+  -webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
+}
+.progress-wrap:hover .progress-arrow {
+  color: #79c000;
+}
+.progress-wrap svg path {
+  fill: none;
+}
+.progress-wrap svg.progress-circle path {
+  stroke: #79c000;
+  stroke-width: 4;
+  box-sizing: border-box;
+  -webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
+}

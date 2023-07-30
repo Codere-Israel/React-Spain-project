@@ -1,0 +1,60 @@
+{
+  "desktop_slide_list": [
+    {
+      "image": "https://www.codere.es/assets1/splash-banners/girls-desktop.jpg",
+      "img_alt": "girls-ukraine",
+      "scheduled": false
+    },
+    {
+      "image": "https://www.codere.es/assets1/splash-banners/wimbeldon-desktop.jpg",
+      "img_alt": "wimbeldon",
+      "startDate": "2023-07-03T07:00:00Z",
+      "endDate": "2023-07-16T21:00:00Z",
+      "scheduled": true
+    },
+    {
+      "image": "https://www.codere.es/_catalogs/masterpage/codere/images/splash/futbol_desktop.jpg",
+      "img_alt": "futbol",
+      "scheduled": false
+    },
+    {
+      "image": "https://www.codere.es/assets1/splash-banners/live-casino-desktop.jpg",
+      "img_alt": "Gana Grandes Jackpots en Codere",
+      "scheduled": false
+    },
+    {
+      "image": "https://www.codere.es/_catalogs/masterpage/codere/images/splash/streaming-codere-desktop.jpg",
+      "img_alt": "Fútbol en Directo desde Codere",
+      "scheduled": false
+    }
+  ],
+  "mobile_slide_list": [
+    {
+      "image": "https://www.codere.es/assets1/splash-banners/girls-mobile.jpg",
+      "img_alt": "girls",
+      "scheduled": false
+    },
+    {
+      "image": "https://www.codere.es/assets1/splash-banners/wimbeldon-mobile.jpg",
+      "img_alt": "wimbeldon",
+      "startDate": "2023-07-03T07:00:00Z",
+      "endDate": "2023-07-16T21:00:00Z",
+      "scheduled": true
+    },
+    {
+      "image": "https://www.codere.es/_catalogs/masterpage/codere/images/splash/futbol_mobile.jpg",
+      "img_alt": "futbol",
+      "scheduled": false
+    },
+    {
+      "image": "https://www.codere.es/assets1/splash-banners/live-casino-mobile.jpg",
+      "img_alt": "Gana Grandes Jackpots en Codere",
+      "scheduled": false
+    },
+    {
+      "image": "https://www.codere.es/_catalogs/masterpage/codere/images/splash/streaming-codere-mobile.jpg",
+      "img_alt": "Fútbol en Directo desde Codere",
+      "scheduled": false
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "casino": [
+    {
+      "imageDesc": "https://www.codere.es/Spain/assets/seoPages/casino-en-vivo/casinoEnVivo.jpg",
+      "imageMob": "",
+      "img_alt": "",
+      "registrateButtonUrl": "https://m.apuestas.codere.es/deportes/#/RegistroESPage",
+      "registrateButtonText": "Juega ahora",
+      "textLine1": "¡El mejor​​​​",
+      "textLine2": "Blackjack!"
+    }
+  ],
+  "casinoEnVivo": [
+    {
+      "imageDesc": "https://www.codere.es/Spain/assets/seoPages/casino-en-vivo/casinoEnVivo.jpg",
+      "imageMob": "",
+      "img_alt": "",
+      "registrateButtonUrl": "https://m.apuestas.codere.es/deportes/#/RegistroESPage",
+      "registrateButtonText": "Juega ahora",
+      "textLine1": "¡El mejor​​​​",
+      "textLine2": "Casino En Vivo!"
+    }
+  ],
+  "ruleta": [
+    {
+      "image": "https://www.codere.com.co/_catalogs/masterpage/codere/images/splash/slide2.jpg",
+      "img_alt": "bono",
+      "tycLink": "https://www.codere.com.co/PromocionesTYC/Bono_hasta_100.000.html",
+      "scheduled": false
+    }
+  ],
+  "blackjack": [
+    {
+      "image": "https://www.codere.com.co/_catalogs/masterpage/codere/images/splash/slide1.webp",
+      "img_alt": "BIENVENIDACASINOCO",
+      "tycLink": "https://m.codere.com.co/deportescolombia/#/PromotionsPage?url=https://www.codere.com.co/PromosCO/actives/BIENVENIDACASINOCO.aspx",
+      "scheduled": false
+    }
+  ],
+  "slots": [
+    {
+      "image": "https://www.codere.com.co/_catalogs/masterpage/codere/images/splash/slide3.webp",
+      "img_alt": "Bingo",
+      "tycLink": "https://www.codere.com.co/PromocionesTYC/Bono_hasta_100.000.html",
+      "scheduled": false
+    }
+  ],
+  "jackpots": [
+    {
+      "image": "https://www.codere.com.co/_catalogs/masterpage/codere/images/splash/casino-retail-desktop.webp",
+      "img_alt": "NearestLocalPage",
+      "tycLink": "https://m.codere.com.co/deportescolombia/#/NearestLocalPage",
+      "scheduled": false,
+      "ctaURL": "https://m.codere.com.co/deportescolombia/#/NearestLocalPage",
+      "ctaText": "Encuentranos"
+    }
+  ]
+}
