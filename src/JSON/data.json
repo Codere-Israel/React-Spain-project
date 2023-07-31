@@ -6,10 +6,10 @@
       "scheduled": false
     },
     {
-      "image": "https://www.codere.es/assets1/splash-banners/wimbeldon-desktop.jpg",
-      "img_alt": "wimbeldon",
-      "startDate": "2023-07-03T07:00:00Z",
-      "endDate": "2023-07-16T21:00:00Z",
+      "image": "https://www.codere.es/assets1/splash-banners/juventus-real-madrid-desktop.jpg",
+      "img_alt": "juventus-real-madrid",
+      "startDate": "2023-08-01T07:00:00Z",
+      "endDate": "2023-08-02T23:30:00Z",
       "scheduled": true
     },
     {
@@ -35,10 +35,10 @@
       "scheduled": false
     },
     {
-      "image": "https://www.codere.es/assets1/splash-banners/wimbeldon-mobile.jpg",
-      "img_alt": "wimbeldon",
-      "startDate": "2023-07-03T07:00:00Z",
-      "endDate": "2023-07-16T21:00:00Z",
+      "image": "https://www.codere.es/assets1/splash-banners/juventus-real-madrid-mobile.jpg",
+      "img_alt": "juventus-real-madrid",
+      "startDate": "2023-08-01T07:00:00Z",
+      "endDate": "2023-08-02T23:30:00Z",
       "scheduled": true
     },
     {
