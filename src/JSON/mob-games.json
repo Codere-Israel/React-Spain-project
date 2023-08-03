@@ -1,0 +1,46 @@
+{
+  "first_slide_list": [
+    {
+      "name": "Beasts",
+      "alt": "Juego de Casino Blackjack",
+      "image": "https://www.codere.com.co/_catalogs/masterpage/codere/images/splash/HABFOURDIVINEBEASTS_Square.webp"
+    },
+    {
+      "name": "Jungle Jim Eldorado",
+      "alt": "Juego de Casino American Roulette Hight Stakes",
+      "image": "https://www.codere.com.co/_catalogs/masterpage/codere/images/splash/MGSJungleJimElDorado_Square.webp"
+    },
+    {
+      "name": "Hunter",
+      "alt": "Juego de Casino European Roulette 10c Min",
+      "image": "https://www.codere.com.co/_catalogs/masterpage/codere/images/splash/HABLONDONHUNTER_Square.webp"
+    },
+    {
+      "name": "HABBird Of Thunder",
+      "alt": "Juego de Casino European Roulette High Stakes",
+      "image": "https://www.codere.com.co/_catalogs/masterpage/codere/images/splash/HABBirdOfThunder_Square.webp"
+    }
+  ],
+  "second_slide_list": [
+    {
+      "name": "Parrot's Gold",
+      "alt": "Juego de Casino Parrot's Gold",
+      "image": "https://www.codere.com.co/_catalogs/masterpage/codere/images/splash/MGSRetroReelsDiamondGlitz_Square.webp"
+    },
+    {
+      "name": "Wolf Riches",
+      "alt": "Juego de Casino Wolf Riches",
+      "image": "https://www.codere.com.co/_catalogs/masterpage/codere/images/splash/MGSDragonz_Square.webp"
+    },
+    {
+      "name": "Rumble Rhino",
+      "alt": "Juego de Casino Rumble Rhino",
+      "image": "https://www.codere.com.co/_catalogs/masterpage/codere/images/splash/MGSBeautifulBones_Square.webp"
+    },
+    {
+      "name": " Goddess Of Fortunes",
+      "alt": "Juego de Casino Goddess Of Fortunes",
+      "image": "https://www.codere.com.co/_catalogs/masterpage/codere/images/splash/MGSEaglesWings_Square.webp"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "acceder": {
+    "url": "https://m.apuestas.codere.es/deportes/index.htm#/HomePage?openlogin=true",
+    "txt": "Acceder"
+  },
+  "registrate": {
+    "url": "https://m.apuestas.codere.es/deportes/#/RegistroESPage",
+    "txt": "Regístrate"
+  },
+  "gamesModuleMobile": {
+    "title1": "JUEGOS DESTACADOS",
+    "title2": "NUEVOS JUEGOS"
+  },
+  "gamesModuleDesctop": {
+    "title1": "Mejores Juegos",
+    "title2": "Nuevos Juegos"
+  },
+  "topMenuDescLine": [
+    {
+      "url": "https://m.apuestas.codere.es/deportes/#/HomePage",
+      "text": "DEPORTES"
+      
+    },
+    {
+      "url": "https://m.apuestas.codere.es/deportes/#/DirectosPage",
+      "text": "EN VIVO"
+    },
+    {
+      "url": "https://m.apuestas.codere.es/deportes/#/SlotsPage",
+      "text": "SLOTS"
+    },
+    {
+      "url": "https://m.apuestas.codere.es/deportes/#/CasinoPage",
+      "text": "CASINO"
+    },
+    {
+      "url": "https://m.apuestas.codere.es/deportes/index.htm#/CasinoPage?category=En%20Vivo",
+      "text": "RULETA EN VIVO"
+    },
+    {
+      "url": "https://m.apuestas.codere.es/deportes/index.htm#/AviatorPage",
+      "text": "AVIATOR"
+    },
+    {
+      "url": "https://m.apuestas.codere.es/deportes/index.htm#/PromotionsPage",
+      "text": "PROMOCIONES"
+    },
+    {
+      "url": "https://m.apuestas.codere.es/deportes/#/NearestLocalPage",
+      "text": "LOCALES"
+    }
+  ],
+  "topDescDropdownMenuItems": [
+    {
+      "url": "https://www.codere.es/casino",
+      "text": "Casino"
+    },
+    {
+      "url": "https://www.codere.es/casino/casino-en-vivo",
+      "text": "Casino En-Vivo"
+    },
+    {
+      "url": "https://www.codere.es/casino/ruleta",
+      "text": "Ruleta"
+    },
+    {
+      "url": "https://www.codere.es/casino/slots",
+      "text": "Slots"
+    },
+    {
+      "url": "https://www.codere.es/casino/blackjack",
+      "text": "Blackjack"
+    },
+    {
+      "url": "https://www.codere.es/casino/jackpots",
+      "text": "Jackpots"
+    },
+    {
+      "url": "https://www.codere.es/cuotas-deportivas",
+      "text": "Apuestas Recomendades"
+    },
+    {
+      "url": "https://www.codere.es/eventos-deportivos",
+      "text": "Eventos Deportivos"
+    }
+  ]
+}
