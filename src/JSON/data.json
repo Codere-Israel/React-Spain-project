@@ -6,10 +6,10 @@
       "scheduled": false
     },
     {
-      "image": "https://www.codere.es/assets1/splash-banners/burnley-vs-manchester-city-desktop.jpg",
-      "img_alt": "burnley-vs-manchester-city",
-      "startDate": "2023-08-09T07:00:00Z",
-      "endDate": "2023-08-11T19:00:00Z",
+      "image": "https://www.codere.es/assets1/splash-banners/athletic-bilbao-vs-real-madrid-desktop.jpg",
+      "img_alt": "athletic-bilbao-vs-real-madrid",
+      "startDate": "2023-08-10T07:00:00Z",
+      "endDate": "2023-08-12T19:30:00Z",
       "scheduled": true
     },
     {
@@ -35,10 +35,10 @@
       "scheduled": false
     },
     {
-      "image": "https://www.codere.es/assets1/splash-banners/burnley-vs-manchester-city-mobile.jpg",
-      "img_alt": "burnley-vs-manchester-city",
-      "startDate": "2023-08-09T07:00:00Z",
-      "endDate": "2023-08-11T19:00:00Z",
+      "image": "https://www.codere.es/assets1/splash-banners/athletic-bilbao-vs-real-madrid-mobile.jpg",
+      "img_alt": "athletic-bilbao-vs-real-madrid",
+      "startDate": "2023-08-10T07:00:00Z",
+      "endDate": "2023-08-12T19:30:00Z",
       "scheduled": true
     },
     {
