@@ -1,15 +1,10 @@
 {
   "desktop_slide_list": [
     {
-      "image": "https://www.codere.es/assets1/splash-banners/girls-desktop.jpg",
-      "img_alt": "girls-ukraine",
-      "scheduled": false
-    },
-    {
-      "image": "https://www.codere.es/assets1/splash-banners/juventus-real-madrid-desktop.jpg",
-      "img_alt": "juventus-real-madrid",
-      "startDate": "2023-08-01T07:00:00Z",
-      "endDate": "2023-08-02T23:30:00Z",
+      "image": "https://www.codere.es/assets1/splash-banners/la-liga-desktop.jpg",
+      "img_alt": "la-liga",
+      "startDate": "2023-08-14T07:00:00Z",
+      "endDate": "2023-09-04T23:59:00Z",
       "scheduled": true
     },
     {
@@ -30,15 +25,10 @@
   ],
   "mobile_slide_list": [
     {
-      "image": "https://www.codere.es/assets1/splash-banners/girls-mobile.jpg",
-      "img_alt": "girls",
-      "scheduled": false
-    },
-    {
-      "image": "https://www.codere.es/assets1/splash-banners/juventus-real-madrid-mobile.jpg",
-      "img_alt": "juventus-real-madrid",
-      "startDate": "2023-08-01T07:00:00Z",
-      "endDate": "2023-08-02T23:30:00Z",
+      "image": "https://www.codere.es/assets1/splash-banners/la-liga-mobile.jpg",
+      "img_alt": "la-liga",
+      "startDate": "2023-08-14T07:00:00Z",
+      "endDate": "2023-09-04T23:59:00Z",
       "scheduled": true
     },
     {
