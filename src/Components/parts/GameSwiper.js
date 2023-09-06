@@ -24,8 +24,7 @@ function GameSwiper(props) {
             <SwiperSlide key={index}>
               <a
                 href={`${GAME_PREFIX}/${item.gameType}?playgame=${item.sponsor} ${item.name}`}
-                rel={'nofollow'}
-                target='_blank'>
+                rel={'nofollow'}>
                 <LazyLoadImage
                   src={`${IMAGE_PREFIX}/${item.sponsor}${item.name.replaceAll(' ', '')}_square.jpg`}
                   alt={item.alt}
