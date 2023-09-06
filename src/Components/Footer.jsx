@@ -154,13 +154,15 @@ const Footer = () => {
                   <li>
                     <a
                       href='https://www.codere.es/ayuda/juego-responsable'
-                      title=''>
-                      Juego más seguro
+                      title=''
+                      rel='nofollow'>
+                      Juego Responsable
                     </a>
                   </li>
                   <li>
                     <a
                       href='https://www.ordenacionjuego.es/es/op-CodereOnline'
+                      rel='nofollow'
                       title=''>
                       Juego Autorizado
                     </a>
@@ -168,28 +170,33 @@ const Footer = () => {
                   <li>
                     <a
                       href='https://m.apuestas.codere.es/csbgonline/condicionesgenerales/CondicionesGeneralesOnlineNacional.pdf?_ga=1.14119028.2134564450.1475767251'
-                      title=''>
+                      title=''
+                      target='_blank'
+                      rel='nofollow'>
                       Contrato
                     </a>
                   </li>
                   <li>
                     <a
                       href='https://www.codere.es/informaci%C3%B3n-legal/reglas-particulares'
-                      title=''>
+                      title=''
+                      rel='nofollow'>
                       Reglas
                     </a>
                   </li>
                   <li>
                     <a
                       href='https://m.apuestas.codere.es/csbgonline/condicionesgenerales/CondicionesGeneralesOnlineNacional.pdf#proteccion_datos_personales'
-                      title=''>
+                      title=''
+                      rel='nofollow'>
                       Protección Datos Jugadores
                     </a>
                   </li>
                   <li>
                     <a
                       href='https://www.codere.es/informaci%C3%B3n-legal/politica-de-cookies'
-                      title=''>
+                      title=''
+                      rel='nofollow'>
                       Política de Cookies
                     </a>
                   </li>
@@ -197,6 +204,7 @@ const Footer = () => {
                     <a
                       href='https://www.codere-partners.com/es/'
                       title=''
+                      rel='nofollow'
                       target='_blank'>
                       Afiliados de Codere
                     </a>
@@ -276,7 +284,8 @@ const Footer = () => {
                   <li>
                     <a
                       href='https://www.codere.es/apuestas/c%C3%B3mo-y-d%C3%B3nde-apostar'
-                      title=''>
+                      title=''
+                      rel='nofollow'>
                       Cómo Apostar
                     </a>
                   </li>
@@ -298,8 +307,17 @@ const Footer = () => {
                   <li>
                     <a
                       href='https://blog.codere.es/'
-                      title=''>
+                      title=''
+                      target='_blank'>
                       Blog Codere
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href='https://m.apuestas.codere.es/deportes/#/HomePage'
+                      title=''
+                      rel='nofollow'>
+                      Deportes
                     </a>
                   </li>
                 </ul>
@@ -313,42 +331,48 @@ const Footer = () => {
                   <li>
                     <a
                       href='https://www.codere.es/ayuda'
-                      title=''>
+                      title=''
+                      rel='nofollow'>
                       Ayuda
                     </a>
                   </li>
                   <li>
                     <a
                       href='https://www.codere.es/informaci%C3%B3n-legal/t%C3%A9rminos-y-condiciones'
-                      title=''>
+                      title=''
+                      rel='nofollow'>
                       T&C Web
                     </a>
                   </li>
                   <li>
                     <a
                       href='https://www.codere.es/Paginas/proteccion-datos-web.aspx'
-                      title=''>
+                      title=''
+                      rel='nofollow'>
                       Protección Datos Web
                     </a>
                   </li>
                   <li>
                     <a
                       href='mailto:apuestas@codere.com'
-                      title=''>
+                      title=''
+                      rel='nofollow'>
                       Contacto: apuestas@codere.com
                     </a>
                   </li>
                   <li>
                     <a
                       href='callto:91 343 29 50'
-                      title=''>
+                      title=''
+                      rel='nofollow'>
                       91 343 29 50
                     </a>
                   </li>
                   <li>
                     <a
                       href='https://m.apuestas.codere.es/deportes/#/ContactPage'
-                      title=''>
+                      title=''
+                      rel='nofollow'>
                       Online chat
                     </a>
                   </li>
