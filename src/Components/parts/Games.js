@@ -9,15 +9,15 @@ import GameSwiper from './GameSwiper';
 
 function Games() {
   return isMobile ? (
-    <div id='mobile-games-section gamesTitle'>
-      <span className={'codere_desktop_game_title'}> Juegos Destacados </span>
+    <div id='mobile_games'>
+      <span className='game-title'> Juegos Destacados </span>
       <GameSwiper games={gameCarousel.first_slide_list} />
-      <span className={'codere_desktop_game_title'}> Nuevos Juegos </span>
+      <span className='game-title'> Nuevos Juegos </span>
       <GameSwiper games={gameCarousel.second_slide_list} />
     </div>
   ) : (
     <div id='desktop_games'>
-      <span className={'codere_desktop_game_title'}> Mejores Juegos </span>
+      <span className='game-title'> Mejores Juegos </span>
       <div className='top_games_conatiner'>
         {deskGames.top_games.map((item, key) => {
           return (
@@ -34,7 +34,7 @@ function Games() {
           );
         })}
       </div>
-      <span className={'codere_desktop_game_title'}> Nuevos Juegos </span>
+      <span className='game-title'> Nuevos Juegos </span>
 
       <div className='bottom_conatiner'>
         {deskGames.bottom_games.map((item, key) => {

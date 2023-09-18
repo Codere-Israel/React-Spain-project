@@ -1,4 +1,13 @@
-import { Button, Container, Nav, Navbar, Dropdown, Accordion, Image } from 'react-bootstrap';
+import {
+  Button,
+  Container,
+  Nav,
+  Navbar,
+  Dropdown,
+  Accordion,
+  Image,
+  InputGroup,
+} from 'react-bootstrap';
 
 import React, { useState } from 'react';
 // import Axios from 'axios';
@@ -17,6 +26,7 @@ import {
 import siteData from './data/globalSiteData.json';
 // import './Header.css';
 import { Link } from 'react-router-dom';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 // class PostUser {
 //   constructor(loginName, password) {
@@ -214,57 +224,62 @@ function Header(props) {
         </div>
       ) : (
         <Container>
-          <a href='https://m.apuestas.codere.es/deportes/#/HomePage'>
-            <img
-              style={{ maxWidth: 130, maxHeight: 31 }}
-              src={LOGO}
-              alt='Codere Casino Online en España'
-            />
-          </a>
-          <Nav className='me-auto'>
-            {siteData.topMenuDescLine.map((d, k) => {
-              return (
-                <Nav.Link
-                  key={k}
-                  href={d.url}
-                  rel='nofollow'>
-                  <FontAwesomeIcon icon={d.icon} />
-                  {d.text}
-                </Nav.Link>
-              );
-            })}
-          </Nav>
-          <Dropdown>
-            <Dropdown.Toggle className='header_btn'>
-              <FontAwesomeIcon icon={faAngleDown} />
-            </Dropdown.Toggle>
-            <Dropdown.Menu>
-              {seo_menu.map((s, k) => {
+          <InputGroup className='header-group-left'>
+            <Nav.Link href='https://m.apuestas.codere.es/deportes/#/HomePage'>
+              <LazyLoadImage
+                style={{ maxWidth: 150 }}
+                src={LOGO}
+                alt='Codere Casino Online en España'
+              />
+            </Nav.Link>
+            <Nav className='me-auto'>
+              {siteData.topMenuDescLine.map((d, k) => {
                 return (
-                  <Dropdown.Item
+                  <Nav.Link
                     key={k}
-                    as={s.isSpa ? Link : 'a'}
-                    to={s.url}
-                    href={s.url}>
-                    {s.name}
-                  </Dropdown.Item>
+                    href={d.url}
+                    rel='nofollow'>
+                    <FontAwesomeIcon icon={d.icon} />
+                    {d.text}
+                  </Nav.Link>
                 );
               })}
-            </Dropdown.Menu>
-          </Dropdown>
-          <Button
-            href={siteData.acceder.url}
-            rel='nofollow'
-            // onClick={handleShow}
-            className='acceder-button header_btn'>
-            {siteData.acceder.txt}
-          </Button>
-          <Button
-            href={siteData.registrate.url}
-            rel='nofollow'
-            className='registrate-button header_btn'>
-            {siteData.registrate.txt}
-          </Button>
+            </Nav>
+          </InputGroup>
+
+          <div className='header-group-right'>
+            <Dropdown>
+              <Dropdown.Toggle className='header_btn'>
+                <FontAwesomeIcon icon={faAngleDown} />
+              </Dropdown.Toggle>
+              <Dropdown.Menu>
+                {seo_menu.map((s, k) => {
+                  return (
+                    <Dropdown.Item
+                      key={k}
+                      as={s.isSpa ? Link : 'a'}
+                      to={s.url}
+                      href={s.url}>
+                      {s.name}
+                    </Dropdown.Item>
+                  );
+                })}
+              </Dropdown.Menu>
+            </Dropdown>
+            <Button
+              href={siteData.acceder.url}
+              rel='nofollow'
+              // onClick={handleShow}
+              className='acceder-button header_btn'>
+              {siteData.acceder.txt}
+            </Button>
+            <Button
+              href={siteData.registrate.url}
+              rel='nofollow'
+              className='registrate-button header_btn'>
+              {siteData.registrate.txt}
+            </Button>
+          </div>
         </Container>
       )}
     </Navbar>

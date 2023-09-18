@@ -321,18 +321,14 @@ export default function Ciclismo(props) {
               </Accordion>
             </div>
 
-            {!props.flag ? (
-              <Fade
-                duration={1000}
-                triggerOnce>
-                <LazyLoadImage
-                  src={prefix + '1' + jpg}
-                  width='100%'
-                />
-              </Fade>
-            ) : (
-              <></>
-            )}
+            <Fade
+              duration={1000}
+              triggerOnce>
+              <LazyLoadImage
+                src={prefix + '1' + jpg}
+                width='100%'
+              />
+            </Fade>
 
             <div
               className='mt-4'
@@ -350,18 +346,14 @@ export default function Ciclismo(props) {
               ))}
             </div>
 
-            {!props.flag ? (
-              <Fade
-                duration={1000}
-                triggerOnce>
-                <LazyLoadImage
-                  src={prefix + '2' + jpg}
-                  width='100%'
-                />
-              </Fade>
-            ) : (
-              <></>
-            )}
+            <Fade
+              duration={1000}
+              triggerOnce>
+              <LazyLoadImage
+                src={prefix + '2' + jpg}
+                width='100%'
+              />
+            </Fade>
 
             <div
               id={maximo.id}
@@ -397,18 +389,14 @@ export default function Ciclismo(props) {
               </Accordion>
             </div>
 
-            {!props.flag ? (
-              <Fade
-                duration={1000}
-                triggerOnce>
-                <LazyLoadImage
-                  src={prefix + '3' + jpg}
-                  width='100%'
-                />
-              </Fade>
-            ) : (
-              <></>
-            )}
+            <Fade
+              duration={1000}
+              triggerOnce>
+              <LazyLoadImage
+                src={prefix + '3' + jpg}
+                width='100%'
+              />
+            </Fade>
           </Container>
         </div>
       </Container>

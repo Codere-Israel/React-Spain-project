@@ -2,9 +2,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faFacebookF,
   faInstagram,
-  faTwitter,
   faYoutube,
-} from "@fortawesome/free-brands-svg-icons";
+  faXTwitter,
+} from '@fortawesome/free-brands-svg-icons';
 import React from 'react';
 import { faHeadset } from '@fortawesome/free-solid-svg-icons';
 
@@ -20,7 +20,6 @@ const Footer = () => {
                 <li>
                   <a
                     href='https://m.apuestas.codere.es/deportes/#/ContactPage'
-                    title=''
                     rel='nofollow'>
                     <FontAwesomeIcon icon={faHeadset} />
                   </a>
@@ -28,7 +27,6 @@ const Footer = () => {
                 <li>
                   <a
                     href='https://www.facebook.com/CodereApuestas/'
-                    title=''
                     rel='nofollow'>
                     <FontAwesomeIcon icon={faFacebookF} />
                   </a>
@@ -36,7 +34,6 @@ const Footer = () => {
                 <li>
                   <a
                     href='https://www.instagram.com/codereapuestas/'
-                    title=''
                     rel='nofollow'>
                     <FontAwesomeIcon icon={faInstagram} />
                   </a>
@@ -44,15 +41,13 @@ const Footer = () => {
                 <li>
                   <a
                     href='https://twitter.com/@Codereapuestas'
-                    title=''
                     rel='nofollow'>
-                    <FontAwesomeIcon icon={faTwitter} />
+                    <FontAwesomeIcon icon={faXTwitter} />
                   </a>
                 </li>
                 <li>
                   <a
                     href='https://www.youtube.com/channel/UCnHiADE4Tfzg94iTGKx9WOQ'
-                    title=''
                     rel='nofollow'>
                     <FontAwesomeIcon icon={faYoutube} />
                   </a>
@@ -82,68 +77,68 @@ const Footer = () => {
             </div>
           </div>
           <div className='sponsors'>
-            
-              <img
-                src='https://www.codere.es/_catalogs/masterpage/codere/images/splash/BIZUM.png'
-                alt='bizum'
-              />
-            
-            
-              <img
-                src='https://www.codere.es/_catalogs/masterpage/codere/images/splash/codereFooter.png'
-                alt='Codere'
-              />
-            
-            
-              <img
-                src='https://www.codere.es/_catalogs/masterpage/codere/images/splash/visa.png'
-                alt='Visa'
-              />
-            
-            
-              <img
-                src='https://www.codere.es/_catalogs/masterpage/codere/images/splash/MasterCard.png'
-                alt='Master-Card'
-              />
-            
-           
-              <img
-                src='https://www.codere.es/_catalogs/masterpage/codere/images/splash/transferencia.png'
-                alt='transferencia'
-              />
-            
-            
-              <img
-                src='https://www.codere.es/_catalogs/masterpage/codere/images/splash/neteller.png'
-                alt='neteller'
-              />
-            
-              <img
-                src='https://www.codere.es/_catalogs/masterpage/codere/images/splash/Skrill.png'
-                alt='Skrill'
-              />
-              <img
-                src='https://www.codere.es/_catalogs/masterpage/codere/images/splash/Paypal.png'
-                alt='Paypal'
-              />
-              <img
-                src='https://www.codere.es/_catalogs/masterpage/codere/images/splash/Paysafecard.png'
-                alt='Paysafecard'
-              />
-              <img
-                src='https://www.codere.es/_catalogs/masterpage/codere/images/splash/muchbetter.png'
-                alt='MuchBetter'
-              />
-              <img
-                src='https://www.codere.es/_catalogs/masterpage/codere/images/splash/halcash.png'
-                alt='halcash'
-              />
-              <img
-                src='https://www.codere.es/_catalogs/masterpage/codere/newSplashTest/assets/rapidTransfer.png'
-                alt='RapidTransferBrokers'
-              />
-              <img src="https://www.codere.es/_catalogs/masterpage/codere/images/splash/Transferencia-Inmediata.png" alt="Transferencia-Inmediata" />
-              <img src="https://www.codere.es/_catalogs/masterpage/codere/images/splash/Astropay.png" alt="Astropay" />
+            <img
+              src='https://www.codere.es/_catalogs/masterpage/codere/images/splash/BIZUM.png'
+              alt='bizum'
+            />
+
+            <img
+              src='https://www.codere.es/_catalogs/masterpage/codere/images/splash/codereFooter.png'
+              alt='Codere'
+            />
+
+            <img
+              src='https://www.codere.es/_catalogs/masterpage/codere/images/splash/visa.png'
+              alt='Visa'
+            />
+
+            <img
+              src='https://www.codere.es/_catalogs/masterpage/codere/images/splash/MasterCard.png'
+              alt='Master-Card'
+            />
+
+            <img
+              src='https://www.codere.es/_catalogs/masterpage/codere/images/splash/transferencia.png'
+              alt='transferencia'
+            />
+
+            <img
+              src='https://www.codere.es/_catalogs/masterpage/codere/images/splash/neteller.png'
+              alt='neteller'
+            />
+
+            <img
+              src='https://www.codere.es/_catalogs/masterpage/codere/images/splash/Skrill.png'
+              alt='Skrill'
+            />
+            <img
+              src='https://www.codere.es/_catalogs/masterpage/codere/images/splash/Paypal.png'
+              alt='Paypal'
+            />
+            <img
+              src='https://www.codere.es/_catalogs/masterpage/codere/images/splash/Paysafecard.png'
+              alt='Paysafecard'
+            />
+            <img
+              src='https://www.codere.es/_catalogs/masterpage/codere/images/splash/muchbetter.png'
+              alt='MuchBetter'
+            />
+            <img
+              src='https://www.codere.es/_catalogs/masterpage/codere/images/splash/halcash.png'
+              alt='halcash'
+            />
+            <img
+              src='https://www.codere.es/_catalogs/masterpage/codere/newSplashTest/assets/rapidTransfer.png'
+              alt='RapidTransferBrokers'
+            />
+            <img
+              src='https://www.codere.es/_catalogs/masterpage/codere/images/splash/Transferencia-Inmediata.png'
+              alt='Transferencia-Inmediata'
+            />
+            <img
+              src='https://www.codere.es/_catalogs/masterpage/codere/images/splash/Astropay.png'
+              alt='Astropay'
+            />
           </div>
 
           <div className='row footerLinks'>
@@ -154,49 +149,51 @@ const Footer = () => {
                   <li>
                     <a
                       href='https://www.codere.es/ayuda/juego-responsable'
-                      title=''>
-                      Juego más seguro
+                      rel='nofollow'>
+                      Juego Responsable
                     </a>
                   </li>
                   <li>
                     <a
                       href='https://www.ordenacionjuego.es/es/op-CodereOnline'
-                      title=''>
+                      rel='nofollow'>
                       Juego Autorizado
                     </a>
                   </li>
                   <li>
                     <a
                       href='https://m.apuestas.codere.es/csbgonline/condicionesgenerales/CondicionesGeneralesOnlineNacional.pdf?_ga=1.14119028.2134564450.1475767251'
-                      title=''>
+                      target='_blank'
+                      rel='nofollow'>
                       Contrato
                     </a>
                   </li>
                   <li>
                     <a
                       href='https://www.codere.es/informaci%C3%B3n-legal/reglas-particulares'
-                      title=''>
+                      rel='nofollow'>
                       Reglas
                     </a>
                   </li>
                   <li>
                     <a
                       href='https://m.apuestas.codere.es/csbgonline/condicionesgenerales/CondicionesGeneralesOnlineNacional.pdf#proteccion_datos_personales'
-                      title=''>
+                      rel='nofollow'>
                       Protección Datos Jugadores
                     </a>
                   </li>
                   <li>
                     <a
                       href='https://www.codere.es/informaci%C3%B3n-legal/politica-de-cookies'
-                      title=''>
+                      rel='nofollow'>
                       Política de Cookies
                     </a>
                   </li>
                   <li>
                     <a
                       href='https://www.codere-partners.com/es/'
-                      title='' target="_blank">
+                      rel='nofollow'
+                      target='_blank'>
                       Afiliados de Codere
                     </a>
                   </li>
@@ -209,53 +206,27 @@ const Footer = () => {
                 <span className='title'>LINKS DESTACADOS</span>
                 <ul className='list-unstyled'>
                   <li>
-                    <a
-                      href='https://www.codere.es/apuesta-en-tu-m%C3%B3vil'
-                      title=''>
-                      Descarga App
-                    </a>
+                    <a href='https://www.codere.es/ayuda/apuesta-en-tu-movil'>Descarga App</a>
                   </li>
                   <li>
-                    <a
-                      href='https://www.codere.es/resultados-y-estad%C3%ADsticas'
-                      title=''>
+                    <a href='https://www.codere.es/ayuda/resultados-y-estadisticas'>
                       Resultados y Estadísticas
                     </a>
                   </li>
                   <li>
-                    <a
-                      href='https://www.codere.es/casino'
-                      title=''>
-                      Casino
-                    </a>
+                    <a href='https://www.codere.es/casino'>Casino</a>
                   </li>
                   <li>
-                    <a
-                      href='https://www.codere.es/casino/ruleta'
-                      title=''>
-                      Ruleta
-                    </a>
+                    <a href='https://www.codere.es/casino/ruleta'>Ruleta</a>
                   </li>
                   <li>
-                    <a
-                      href='https://www.codere.es/casino/slots'
-                      title=''>
-                      Slots
-                    </a>
+                    <a href='https://www.codere.es/casino/slots'>Slots</a>
                   </li>
                   <li>
-                    <a
-                      href='https://www.codere.es/casino/blackjack'
-                      title=''>
-                      Blackjack
-                    </a>
+                    <a href='https://www.codere.es/casino/blackjack'>Blackjack</a>
                   </li>
                   <li>
-                    <a
-                      href='https://www.codere.es/casino/jackpots'
-                      title=''>
-                      Jackpots
-                    </a>
+                    <a href='https://www.codere.es/casino/jackpots'>Jackpots</a>
                   </li>
                 </ul>
               </div>
@@ -266,39 +237,36 @@ const Footer = () => {
                 <span className='title'>DEPORTES</span>
                 <ul className='list-unstyled'>
                   <li>
-                    <a
-                      href='https://www.codere.es/dep%C3%B3sitos/dep%C3%B3sito-online'
-                      title=''>
+                    <a href='https://www.codere.es/dep%C3%B3sitos/dep%C3%B3sito-online'>
                       Info Depósitos y Cobros
                     </a>
                   </li>
                   <li>
                     <a
                       href='https://www.codere.es/apuestas/c%C3%B3mo-y-d%C3%B3nde-apostar'
-                      title=''>
+                      rel='nofollow'>
                       Cómo Apostar
                     </a>
                   </li>
                   <li>
-                    <a
-                      href='https://www.codere.es/cuotas-deportivas'
-                      title=''>
-                      Apuestas Recomendadas
-                    </a>
+                    <a href='https://www.codere.es/cuotas-deportivas'>Apuestas Recomendadas</a>
                   </li>
                   <li>
-                    <a
-                      href='https://www.codere.es/eventos-deportivos'
-                      title=''>
-                      Eventos Deportivos
-                    </a>
+                    <a href='https://www.codere.es/eventos-deportivos'>Eventos Deportivos</a>
                   </li>
 
                   <li>
                     <a
                       href='https://blog.codere.es/'
-                      title=''>
+                      target='_blank'>
                       Blog Codere
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href='https://m.apuestas.codere.es/deportes/#/HomePage'
+                      rel='nofollow'>
+                      Deportes
                     </a>
                   </li>
                 </ul>
@@ -312,42 +280,42 @@ const Footer = () => {
                   <li>
                     <a
                       href='https://www.codere.es/ayuda'
-                      title=''>
+                      rel='nofollow'>
                       Ayuda
                     </a>
                   </li>
                   <li>
                     <a
                       href='https://www.codere.es/informaci%C3%B3n-legal/t%C3%A9rminos-y-condiciones'
-                      title=''>
+                      rel='nofollow'>
                       T&C Web
                     </a>
                   </li>
                   <li>
                     <a
                       href='https://www.codere.es/Paginas/proteccion-datos-web.aspx'
-                      title=''>
+                      rel='nofollow'>
                       Protección Datos Web
                     </a>
                   </li>
                   <li>
                     <a
                       href='mailto:apuestas@codere.com'
-                      title=''>
+                      rel='nofollow'>
                       Contacto: apuestas@codere.com
                     </a>
                   </li>
                   <li>
                     <a
                       href='callto:91 343 29 50'
-                      title=''>
+                      rel='nofollow'>
                       91 343 29 50
                     </a>
                   </li>
                   <li>
                     <a
                       href='https://m.apuestas.codere.es/deportes/#/ContactPage'
-                      title=''>
+                      rel='nofollow'>
                       Online chat
                     </a>
                   </li>

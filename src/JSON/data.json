@@ -1,15 +1,17 @@
 {
   "desktop_slide_list": [
     {
-      "image": "https://www.codere.es/assets1/splash-banners/girls-desktop.jpg",
-      "img_alt": "girls-ukraine",
-      "scheduled": false
+      "image": "https://www.codere.es/assets1/splash-banners/georgia-espania-desktop.jpg",
+      "img_alt": "georgia-vs-espania",
+      "startDate": "2023-09-07T07:00:00Z",
+      "endDate": "2023-09-08T17:00:00Z",
+      "scheduled": true
     },
     {
-      "image": "https://www.codere.es/assets1/splash-banners/athletic-bilbao-vs-real-madrid-desktop.jpg",
-      "img_alt": "athletic-bilbao-vs-real-madrid",
-      "startDate": "2023-08-10T07:00:00Z",
-      "endDate": "2023-08-12T19:30:00Z",
+      "image": "https://www.codere.es/assets1/splash-banners/la-liga-1-desktop.jpg",
+      "img_alt": "la-liga",
+      "startDate": "2023-09-07T07:00:00Z",
+      "endDate": "2023-12-31T17:00:00Z",
       "scheduled": true
     },
     {
@@ -30,15 +32,17 @@
   ],
   "mobile_slide_list": [
     {
-      "image": "https://www.codere.es/assets1/splash-banners/girls-mobile.jpg",
-      "img_alt": "girls",
-      "scheduled": false
+      "image": "https://www.codere.es/assets1/splash-banners/georgia-espania-mobile.jpg",
+      "img_alt": "georgia-vs-espania",
+      "startDate": "2023-09-07T07:00:00Z",
+      "endDate": "2023-09-08T17:00:00Z",
+      "scheduled": true
     },
     {
-      "image": "https://www.codere.es/assets1/splash-banners/athletic-bilbao-vs-real-madrid-mobile.jpg",
-      "img_alt": "athletic-bilbao-vs-real-madrid",
-      "startDate": "2023-08-10T07:00:00Z",
-      "endDate": "2023-08-12T19:30:00Z",
+      "image": "https://www.codere.es/assets1/splash-banners/la-liga-1-mobile.jpg",
+      "img_alt": "la-liga",
+      "startDate": "2023-09-07T07:00:00Z",
+      "endDate": "2023-12-31T17:00:00Z",
       "scheduled": true
     },
     {

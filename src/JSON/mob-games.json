@@ -1,46 +1,66 @@
 {
   "first_slide_list": [
     {
-      "name": "Beasts",
-      "alt": "Juego de Casino Blackjack",
-      "image": "https://www.codere.com.co/_catalogs/masterpage/codere/images/splash/HABFOURDIVINEBEASTS_Square.webp"
+      "sponsor": "PT",
+      "name": "Live Mega Fire Blaze Ruleta",
+      "alt": "Juego de Casino Live Mega Fire Blaze Ruleta",
+      "gameType": "SlotsPage"
     },
     {
-      "name": "Jungle Jim Eldorado",
-      "alt": "Juego de Casino American Roulette Hight Stakes",
-      "image": "https://www.codere.com.co/_catalogs/masterpage/codere/images/splash/MGSJungleJimElDorado_Square.webp"
+      "sponsor": "PT",
+      "name": "Live Ruleta Coderista",
+      "alt": "Juego de Live Ruleta Coderista",
+      "gameType": "CasinoPage"
     },
     {
-      "name": "Hunter",
-      "alt": "Juego de Casino European Roulette 10c Min",
-      "image": "https://www.codere.com.co/_catalogs/masterpage/codere/images/splash/HABLONDONHUNTER_Square.webp"
+      "sponsor": "PT",
+      "name": "Cashback Blackjack",
+      "alt": "Juego de Casino Cashback Blackjack",
+      "gameType": "CasinoPage"
     },
     {
-      "name": "HABBird Of Thunder",
-      "alt": "Juego de Casino European Roulette High Stakes",
-      "image": "https://www.codere.com.co/_catalogs/masterpage/codere/images/splash/HABBirdOfThunder_Square.webp"
+      "sponsor": "PRP",
+      "name": "Aviator",
+      "alt": "Juego de Casino Aviator",
+      "gameType": "CasinoPage"
+    },
+    {
+      "sponsor": "PT",
+      "name": "Premium European Roulette",
+      "alt": "Juego de Casino Premium European Roulette",
+      "gameType": "CasinoPage"
     }
   ],
   "second_slide_list": [
     {
-      "name": "Parrot's Gold",
-      "alt": "Juego de Casino Parrot's Gold",
-      "image": "https://www.codere.com.co/_catalogs/masterpage/codere/images/splash/MGSRetroReelsDiamondGlitz_Square.webp"
+      "sponsor": "PGP",
+      "name": "Gates of Olympus",
+      "alt": "Juego de Casino Gates of Olympus",
+      "gameType": "SlotsPage"
     },
     {
-      "name": "Wolf Riches",
-      "alt": "Juego de Casino Wolf Riches",
-      "image": "https://www.codere.com.co/_catalogs/masterpage/codere/images/splash/MGSDragonz_Square.webp"
+      "sponsor": "PT",
+      "name": "Age of the Gods God of Storms",
+      "alt": "Juego de Casino Age of the Gods God of Storms",
+      "gameType": "SlotsPage"
     },
     {
-      "name": "Rumble Rhino",
-      "alt": "Juego de Casino Rumble Rhino",
-      "image": "https://www.codere.com.co/_catalogs/masterpage/codere/images/splash/MGSBeautifulBones_Square.webp"
+      "sponsor": "MGS",
+      "name": "Amazing Link Zeus",
+      "alt": "Juego de Casino Amazing Link Zeus",
+      "gameType": "CasinoPage"
     },
     {
-      "name": " Goddess Of Fortunes",
-      "alt": "Juego de Casino Goddess Of Fortunes",
-      "image": "https://www.codere.com.co/_catalogs/masterpage/codere/images/splash/MGSEaglesWings_Square.webp"
+      "sponsor": "PT",
+      "name": "BOOM",
+      "alt": "Juego de Casino BOOM",
+      "gameType": "CasinoPage"
+    },
+    {
+      "sponsor": "MGS",
+      "name": "Scarab Cash",
+      "alt": "Juego de Casino Scarab Cash",
+      "gameType": "CasinoPage"
     }
   ]
 }
