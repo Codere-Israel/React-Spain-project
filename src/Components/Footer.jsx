@@ -144,7 +144,7 @@ const Footer = () => {
               alt="Astropay"
             />
           </div>
-          {/*  */}
+
           <div className="row footerLinks">
             <div className="col-md-3 col-6">
               <div className="footer-info-single">
