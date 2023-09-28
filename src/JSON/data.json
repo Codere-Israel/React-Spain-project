@@ -15,7 +15,7 @@
       "scheduled": true
     },
     {
-      "image": "https://www.codere.es/_catalogs/masterpage/codere/images/splash/futbol_desktop.jpg",
+      "image": "https://www.codere.es/assets1/splash-banners/futbol-desktop.jpg",
       "img_alt": "futbol",
       "scheduled": false
     },
@@ -25,7 +25,7 @@
       "scheduled": false
     },
     {
-      "image": "https://www.codere.es/_catalogs/masterpage/codere/images/splash/streaming-codere-desktop.jpg",
+      "image": "https://www.codere.es/assets1/splash-banners/streaming-desktop.jpg",
       "img_alt": "Fútbol en Directo desde Codere",
       "scheduled": false
     }
@@ -46,7 +46,7 @@
       "scheduled": true
     },
     {
-      "image": "https://www.codere.es/_catalogs/masterpage/codere/images/splash/futbol_mobile.jpg",
+      "image": "https://www.codere.es/assets1/splash-banners/futbol-mobile.jpg",
       "img_alt": "futbol",
       "scheduled": false
     },
@@ -56,7 +56,7 @@
       "scheduled": false
     },
     {
-      "image": "https://www.codere.es/_catalogs/masterpage/codere/images/splash/streaming-codere-mobile.jpg",
+      "image": "https://www.codere.es/assets1/splash-banners/streaming-mobile.jpg",
       "img_alt": "Fútbol en Directo desde Codere",
       "scheduled": false
     }
