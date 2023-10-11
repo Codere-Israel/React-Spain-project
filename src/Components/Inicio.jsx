@@ -92,10 +92,10 @@ function Inicio(props) {
   return (
     <>
       <Helmet>
-        <title>Casa de Apuestas Deportivas y Casino Online » +18 | Codere®</title>
+        <title>Apuestas Deportivas y el Mejor Casino en línea » +18 | Codere®</title>
         <meta
           name='description'
-          content='El juego responsable está en Codere, la casa de apuestas deportivas online líder en España. Juega blackjack, ruletas o tragaperras en el Casino #1 🥇'
+          content='El juego responsable está aquí, la Casa de Apuestas ⚽ y Casino Online líder en España. Juega blackjack, ruletas o tragaperras y vive la experiencia Codere.'
         />
         <script type='application/ld+json'>{JSON.stringify(json1)}</script>
         <script type='application/ld+json'>{JSON.stringify(json2)}</script>
