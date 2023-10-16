@@ -264,6 +264,7 @@ export default function Futbol(props) {
                 ))}
               </div>
             ))}
+            <p>Prueba nuestro <a href="https://www.codere.es/ayuda/simulador-de-apuestas">simulador de apuestas</a></p>
           </div>
 
           <Fade
