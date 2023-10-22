@@ -13,7 +13,7 @@ export default function Floating(props) {
         }
         rel='nofollow'
         className='floating-btn'>
-        {props.juega ? 'Juega ahora' : 'Registrate'}
+        {props.juega ? 'Juega ahora' : 'Regístrate'}
       </Button>
     </div>
   );
