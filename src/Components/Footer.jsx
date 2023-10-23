@@ -65,7 +65,7 @@ const Footer = () => {
                 rel="nofollow"
               >
                 <img
-                  src="https://www.codere.es/_catalogs/masterpage/codere/newSplashTest/assets/appstore.svg"
+                  src="https://www.codere.es/assets1/logosAndSponsors/appstore.svg"
                   alt="Descarga en App Store"
                 />
               </a>
@@ -74,7 +74,7 @@ const Footer = () => {
                 rel="nofollow"
               >
                 <img
-                  src="https://www.codere.es/_catalogs/masterpage/codere/newSplashTest/assets/android.png"
+                  src="https://www.codere.es/assets1/logosAndSponsors/android.avif"
                   alt="Descarga en Google Play"
                 />
               </a>
@@ -82,65 +82,65 @@ const Footer = () => {
           </div>
           <div className="sponsors">
             <img
-              src="https://www.codere.es/_catalogs/masterpage/codere/images/splash/BIZUM.png"
+              src="https://www.codere.es/assets1/logosAndSponsors/BIZUM.avif"
               alt="bizum"
             />
 
             <img
-              src="https://www.codere.es/_catalogs/masterpage/codere/images/splash/codereFooter.png"
+              src="https://www.codere.es/assets1/logosAndSponsors/codereFooter.avif"
               alt="Codere"
             />
 
             <img
-              src="https://www.codere.es/_catalogs/masterpage/codere/images/splash/visa.png"
+              src="https://www.codere.es/assets1/logosAndSponsors/visa.avif"
               alt="Visa"
             />
 
             <img
-              src="https://www.codere.es/_catalogs/masterpage/codere/images/splash/MasterCard.png"
+              src="https://www.codere.es/assets1/logosAndSponsors/MasterCard.avif"
               alt="Master-Card"
             />
 
             <img
-              src="https://www.codere.es/_catalogs/masterpage/codere/images/splash/transferencia.png"
+              src="https://www.codere.es/assets1/logosAndSponsors/transferencia.avif"
               alt="transferencia"
             />
 
             <img
-              src="https://www.codere.es/_catalogs/masterpage/codere/images/splash/neteller.png"
+              src="https://www.codere.es/assets1/logosAndSponsors/neteller.avif"
               alt="neteller"
             />
 
             <img
-              src="https://www.codere.es/_catalogs/masterpage/codere/images/splash/Skrill.png"
+                src="https://www.codere.es/assets1/logosAndSponsors/Skrill.avif"
               alt="Skrill"
             />
             <img
-              src="https://www.codere.es/_catalogs/masterpage/codere/images/splash/Paypal.png"
+              src="https://www.codere.es/assets1/logosAndSponsors/Paypal.avif"
               alt="Paypal"
             />
             <img
-              src="https://www.codere.es/_catalogs/masterpage/codere/images/splash/Paysafecard.png"
+              src="https://www.codere.es/assets1/logosAndSponsors/Paypal.avif"
               alt="Paysafecard"
             />
             <img
-              src="https://www.codere.es/_catalogs/masterpage/codere/images/splash/muchbetter.png"
+              src="https://www.codere.es/assets1/logosAndSponsors/muchbetter.avif"
               alt="MuchBetter"
             />
             <img
-              src="https://www.codere.es/_catalogs/masterpage/codere/images/splash/halcash.png"
+              src="https://www.codere.es/assets1/logosAndSponsors/halcash.avif"
               alt="halcash"
             />
             <img
-              src="https://www.codere.es/_catalogs/masterpage/codere/newSplashTest/assets/rapidTransfer.png"
+              src="https://www.codere.es/assets1/logosAndSponsors/rapidTransfer.avif"
               alt="RapidTransferBrokers"
             />
             <img
-              src="https://www.codere.es/_catalogs/masterpage/codere/images/splash/Transferencia-Inmediata.png"
+              src="https://www.codere.es/assets1/logosAndSponsors/Transferencia-Inmediata.avif"
               alt="Transferencia-Inmediata"
             />
             <img
-              src="https://www.codere.es/_catalogs/masterpage/codere/images/splash/Astropay.png"
+              src="https://www.codere.es/assets1/logosAndSponsors/Astropay.avif"
               alt="Astropay"
             />
           </div>
@@ -346,7 +346,7 @@ const Footer = () => {
         <div className="row juegas-banners">
           <div className="col">
             <img
-              src="https://www.codere.es/_catalogs/masterpage/codere/newSplashTest/assets/PlayResponsible.png"
+              src="https://www.codere.es/assets1/logosAndSponsors/PlayResponsible.avif"
               alt="Play Responsible"
             />
             <a
@@ -355,7 +355,7 @@ const Footer = () => {
               rel="nofollow"
             >
               <img
-                src="https://www.codere.es/_catalogs/masterpage/codere/newSplashTest/assets/autopro.png"
+                src="https://www.codere.es/assets1/logosAndSponsors/autopro.avif"
                 alt="AutoPro"
               />
             </a>
@@ -365,13 +365,13 @@ const Footer = () => {
               rel="nofollow"
             >
               <img
-                src="https://www.codere.es/_catalogs/masterpage/codere/newSplashTest/assets/JugarSeguro.svg"
+                src="https://www.codere.es/assets1/logosAndSponsors/JugarSeguro.svg"
                 alt="JugarSeguro"
               />
             </a>
             <a href="https://jugarbien.es/" target="_blank" rel="nofollow">
               <img
-                src="https://www.codere.es/_catalogs/masterpage/codere/newSplashTest/assets/JugarBien.svg"
+                src="https://www.codere.es/assets1/logosAndSponsors/JugarBien.svg"
                 alt="JugarBien"
               />
             </a>
@@ -381,12 +381,12 @@ const Footer = () => {
               rel="nofollow"
             >
               <img
-                src="https://www.codere.es/_catalogs/masterpage/codere/newSplashTest/assets/plus18.png"
+                src="https://www.codere.es/assets1/logosAndSponsors/plus18.avif"
                 alt="+18"
               />
             </a>
             <img
-              src="https://www.codere.es/_catalogs/masterpage/codere/newSplashTest/assets/sin-dev.png"
+              src="https://www.codere.es/assets1/logosAndSponsors/sin-dev.avif"
               alt="Sin diversión no hay juego"
             />
           </div>
@@ -395,7 +395,7 @@ const Footer = () => {
         <div id="legals" style={{ marginBottom: "2vw" }}>
           <a href="https://m.apuestas.codere.es/csbgonline/condicionesgenerales/politicaseguridadinformacion.pdf">
             <img
-              src="https://www.codere.es/_catalogs/masterpage/codere/newSplashTest/assets/aenor.png"
+              src="https://www.codere.es/assets1/logosAndSponsors/aenor.avif"
               alt="AENOR Seguridad Información"
             />
           </a>
