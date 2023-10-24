@@ -10,14 +10,14 @@ function BottomGame(props) {
       <div className='bottom-card'>
         <div className='bottom-box'>
           <div className='game'>
-            <img
-              src={props.img}
+            <img  width={"100px"} height={"100px"}
+                src={props.img}
               alt={props.alt}
             />
           </div>
           <div className='logo'>
-            <img
-              src={props.logo}
+            <img width={"100px"} height={"100px"}
+                src={props.logo}
               alt={props.logoAlt}
             />
           </div>

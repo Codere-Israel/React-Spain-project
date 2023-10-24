@@ -15,7 +15,7 @@ function GameSwiper(props) {
       <Swiper
         modules={[Autoplay, Lazy]}
         lazy={{ loadPrevNext: true, loadPrevNextAmount: 1 }}
-        autoplay={{ delay: 2000, disableOnInteraction: false }}
+        autoplay={{ delay: 200000, disableOnInteraction: false }}
         spaceBetween={15}
         slidesPerView={3}
         loop={true}>
@@ -26,7 +26,10 @@ function GameSwiper(props) {
                 href={`${GAME_PREFIX}/${item.gameType}?playgame=${item.sponsor} ${item.name}`}
                 rel={'nofollow'}>
                 <LazyLoadImage
-                  src={`${IMAGE_PREFIX}/${item.sponsor}${item.name.replaceAll(' ', '')}_square.jpg`}
+                  // src={`${IMAGE_PREFIX}/${item.sponsor}${item.name.replaceAll(' ', '')}_square.jpg`}
+                    width={"50px"}
+                    height={"50px"}
+                    src={item.imgUrl}
                   alt={item.alt}
                 />
               </a>

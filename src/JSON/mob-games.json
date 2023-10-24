@@ -4,31 +4,36 @@
       "sponsor": "PT",
       "name": "Live Mega Fire Blaze Ruleta",
       "alt": "Juego de Casino Live Mega Fire Blaze Ruleta",
-      "gameType": "SlotsPage"
+      "gameType": "SlotsPage",
+      "imgUrl": "https://www.codere.es/assets1/games/mobileGames/PTLiveMegaFireBlazeRuleta_square.avif"
     },
     {
       "sponsor": "PT",
       "name": "Live Ruleta Coderista",
       "alt": "Juego de Live Ruleta Coderista",
-      "gameType": "CasinoPage"
+      "gameType": "CasinoPage",
+      "imgUrl": "https://www.codere.es/assets1/games/mobileGames/PTLiveRuletaCoderista_square.avif"
     },
     {
       "sponsor": "PT",
       "name": "Cashback Blackjack",
       "alt": "Juego de Casino Cashback Blackjack",
-      "gameType": "CasinoPage"
+      "gameType": "CasinoPage",
+      "imgUrl": "https://www.codere.es/assets1/games/mobileGames/PTCashbackBlackjack_square.avif"
     },
     {
       "sponsor": "PRP",
       "name": "Aviator",
       "alt": "Juego de Casino Aviator",
-      "gameType": "CasinoPage"
+      "gameType": "CasinoPage",
+      "imgUrl": "https://www.codere.es/assets1/games/mobileGames/PRPAviator_square.avif"
     },
     {
       "sponsor": "PT",
       "name": "Premium European Roulette",
       "alt": "Juego de Casino Premium European Roulette",
-      "gameType": "CasinoPage"
+      "gameType": "CasinoPage",
+      "imgUrl": "https://www.codere.es/assets1/games/mobileGames/PTPremiumEuropeanRoulette_square.avif"
     }
   ],
   "second_slide_list": [
@@ -36,31 +41,36 @@
       "sponsor": "PGP",
       "name": "Gates of Olympus",
       "alt": "Juego de Casino Gates of Olympus",
-      "gameType": "SlotsPage"
+      "gameType": "SlotsPage",
+      "imgUrl": "https://www.codere.es/assets1/games/mobileGames/PGPGatesofOlympus_square.avif"
     },
     {
       "sponsor": "PT",
       "name": "Age of the Gods God of Storms",
       "alt": "Juego de Casino Age of the Gods God of Storms",
-      "gameType": "SlotsPage"
+      "gameType": "SlotsPage",
+      "imgUrl": "https://www.codere.es/assets1/games/mobileGames/PTAgeoftheGodsGodofStorms_square.avif"
     },
     {
       "sponsor": "MGS",
       "name": "Amazing Link Zeus",
       "alt": "Juego de Casino Amazing Link Zeus",
-      "gameType": "CasinoPage"
+      "gameType": "CasinoPage",
+      "imgUrl": "https://www.codere.es/assets1/games/mobileGames/MGSAmazingLinkZeus_square.avif"
     },
     {
       "sponsor": "PT",
       "name": "BOOM",
       "alt": "Juego de Casino BOOM",
-      "gameType": "CasinoPage"
+      "gameType": "CasinoPage",
+      "imgUrl": "https://www.codere.es/assets1/games/mobileGames/PTBOOM_square.avif"
     },
     {
       "sponsor": "MGS",
       "name": "Scarab Cash",
       "alt": "Juego de Casino Scarab Cash",
-      "gameType": "CasinoPage"
+      "gameType": "CasinoPage",
+      "imgUrl": "https://www.codere.es/assets1/games/mobileGames/MGSScarabCash_square.avif"
     }
   ]
 }

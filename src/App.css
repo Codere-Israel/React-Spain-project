@@ -12,7 +12,7 @@
 
 body {
   background-color: #252a30;
-  font-family: 'Roboto';
+  font-family: "Roboto";
 }
 
 html {
@@ -34,6 +34,26 @@ body {
   width: 0;
 }
 
+/*.inicio  > img {*/
+/*  width: 100% !important;*/
+/*  height: auto !important;*/
+/*  !*aspect-ratio: 16 / 9 !important;*!*/
+/*  }*/
+
+
+
+.apps a:nth-child(2) img {
+  height : 4.5rem !important;
+  width: fit-content !important;
+  }
+.mobileViewAppLogos {
+  align-items: center;
+  display: flex;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+  }
 /* Cookie Consent */
 .cookie-content h3,
 .cookie-content a {
@@ -103,7 +123,7 @@ body {
   right: 0;
   margin: auto;
   width: 0%;
-  content: '.';
+  content: ".";
   color: transparent;
   background: #fff;
   height: 2px;
@@ -324,17 +344,17 @@ body {
 
 @keyframes glowing {
   0% {
-    background-color: '#0055fe0';
+    background-color: "#0055fe0";
     -webkit-box-shadow: 0 0 4px #ffffff;
   }
 
   50% {
-    background-color: '#0055fe0';
+    background-color: "#0055fe0";
     -webkit-box-shadow: 0 0 7px #ffffff;
   }
 
   100% {
-    background-color: '#0055fe0';
+    background-color: "#0055fe0";
     -webkit-box-shadow: 0 0 3px #ffffff;
   }
 }
@@ -412,6 +432,7 @@ body {
 /* Swiper */
 .swiper-slide img {
   width: 100%;
+  height: auto;
 }
 
 .swiper-pagination-bullet-active {
@@ -491,6 +512,7 @@ body {
 img.topGameImage {
   position: absolute;
   width: 35vw;
+  height: auto;
   top: 0;
   left: 0;
   border-bottom-left-radius: 20px;
@@ -501,6 +523,7 @@ img.topGameImage {
 
 img.game_logo {
   margin: auto;
+  height: auto;
   width: 50%;
   position: relative;
   top: 3vw;
@@ -567,11 +590,13 @@ img.game_logo:hover {
 
 .bottom-box .game img {
   width: 26rem;
+  height: auto;
   border-radius: 15px;
 }
 
 .bottom-box .logo img {
   height: 5vw;
+  width: 100%;
 }
 
 .bottom-box .logo img:hover {
@@ -1069,6 +1094,7 @@ footer.nb-footer .footer-info-single p {
 .juegas-banners img {
   max-height: 1.5rem;
   padding-left: 2vw;
+  width: auto;
 }
 
 .juegas-banners a:nth-child(2) img {
@@ -1077,8 +1103,9 @@ footer.nb-footer .footer-info-single p {
 }
 
 .apps a:nth-child(1) img {
-  height: 3rem;
-}
+  height : 3rem !important;
+  width: auto;
+  }
 
 .apps a:nth-child(2) img {
   height: 4.5rem;

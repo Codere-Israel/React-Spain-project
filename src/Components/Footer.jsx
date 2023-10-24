@@ -59,12 +59,12 @@ const Footer = () => {
           </div>
 
           <div className="row apps">
-            <div className="col">
+            <div className="col mobileViewAppLogos">
               <a
                 href="https://codere.onelink.me/3k3c?pid=SplashPage_ES&c=iOS&af_dp=codere%3A%2F%2F&af_web_dp=https%3A%2F%2Fwww.codere.es%2Fapuesta-en-tu-m%C3%B3vil"
                 rel="nofollow"
               >
-                <img
+                <img width={"100px"} height={"100px"}
                   src="https://www.codere.es/assets1/logosAndSponsors/appstore.svg"
                   alt="Descarga en App Store"
                 />
@@ -73,7 +73,7 @@ const Footer = () => {
                 href="https://codere.onelink.me/3k3c?pid=SplashPage_ES&c=Android&af_dp=codere%3A%2F%2F&af_web_dp=https%3A%2F%2Fwww.codere.es%2Fapuesta-en-tu-móvil"
                 rel="nofollow"
               >
-                <img
+                <img width={"100px"} height={"100px"}
                   src="https://www.codere.es/assets1/logosAndSponsors/android.avif"
                   alt="Descarga en Google Play"
                 />
@@ -81,65 +81,65 @@ const Footer = () => {
             </div>
           </div>
           <div className="sponsors">
-            <img
+            <img width={"100px"} height={"100px"}
               src="https://www.codere.es/assets1/logosAndSponsors/BIZUM.avif"
               alt="bizum"
             />
 
-            <img
+            <img width={"100px"} height={"100px"}
               src="https://www.codere.es/assets1/logosAndSponsors/codereFooter.avif"
               alt="Codere"
             />
 
-            <img
+            <img width={"100px"} height={"100px"}
               src="https://www.codere.es/assets1/logosAndSponsors/visa.avif"
               alt="Visa"
             />
 
-            <img
+            <img width={"100px"} height={"100px"}
               src="https://www.codere.es/assets1/logosAndSponsors/MasterCard.avif"
               alt="Master-Card"
             />
 
-            <img
+            <img width={"100px"} height={"100px"}
               src="https://www.codere.es/assets1/logosAndSponsors/transferencia.avif"
               alt="transferencia"
             />
 
-            <img
+            <img width={"100px"} height={"100px"}
               src="https://www.codere.es/assets1/logosAndSponsors/neteller.avif"
               alt="neteller"
             />
 
-            <img
+            <img width={"100px"} height={"100px"}
                 src="https://www.codere.es/assets1/logosAndSponsors/Skrill.avif"
               alt="Skrill"
             />
-            <img
+            <img width={"100px"} height={"100px"}
               src="https://www.codere.es/assets1/logosAndSponsors/Paypal.avif"
               alt="Paypal"
             />
-            <img
-              src="https://www.codere.es/assets1/logosAndSponsors/Paypal.avif"
+            <img width={"100px"} height={"100px"}
+              src="https://www.codere.es/assets1/logosAndSponsors/Paysafecard.avif"
               alt="Paysafecard"
             />
-            <img
+            <img width={"100px"} height={"100px"}
               src="https://www.codere.es/assets1/logosAndSponsors/muchbetter.avif"
               alt="MuchBetter"
             />
-            <img
+            <img width={"100px"} height={"100px"}
               src="https://www.codere.es/assets1/logosAndSponsors/halcash.avif"
               alt="halcash"
             />
-            <img
+            <img width={"100px"} height={"100px"}
               src="https://www.codere.es/assets1/logosAndSponsors/rapidTransfer.avif"
               alt="RapidTransferBrokers"
             />
-            <img
+            <img width={"100px"} height={"100px"}
               src="https://www.codere.es/assets1/logosAndSponsors/Transferencia-Inmediata.avif"
               alt="Transferencia-Inmediata"
             />
-            <img
+            <img width={"100px"} height={"100px"}
               src="https://www.codere.es/assets1/logosAndSponsors/Astropay.avif"
               alt="Astropay"
             />
@@ -345,7 +345,7 @@ const Footer = () => {
 
         <div className="row juegas-banners">
           <div className="col">
-            <img
+            <img width={"100px"} height={"100px"}
               src="https://www.codere.es/assets1/logosAndSponsors/PlayResponsible.avif"
               alt="Play Responsible"
             />
@@ -354,7 +354,7 @@ const Footer = () => {
               target="_blank"
               rel="nofollow"
             >
-              <img
+              <img width={"100px"} height={"100px"}
                 src="https://www.codere.es/assets1/logosAndSponsors/autopro.avif"
                 alt="AutoPro"
               />
@@ -364,13 +364,13 @@ const Footer = () => {
               target="_blank"
               rel="nofollow"
             >
-              <img
+              <img width={"100px"} height={"100px"}
                 src="https://www.codere.es/assets1/logosAndSponsors/JugarSeguro.svg"
                 alt="JugarSeguro"
               />
             </a>
             <a href="https://jugarbien.es/" target="_blank" rel="nofollow">
-              <img
+              <img width={"100px"} height={"100px"}
                 src="https://www.codere.es/assets1/logosAndSponsors/JugarBien.svg"
                 alt="JugarBien"
               />
@@ -380,12 +380,12 @@ const Footer = () => {
               target="_blank"
               rel="nofollow"
             >
-              <img
+              <img width={"100px"} height={"100px"}
                 src="https://www.codere.es/assets1/logosAndSponsors/plus18.avif"
                 alt="+18"
               />
             </a>
-            <img
+            <img width={"100px"} height={"100px"}
               src="https://www.codere.es/assets1/logosAndSponsors/sin-dev.avif"
               alt="Sin diversión no hay juego"
             />
@@ -394,7 +394,7 @@ const Footer = () => {
 
         <div id="legals" style={{ marginBottom: "2vw" }}>
           <a href="https://m.apuestas.codere.es/csbgonline/condicionesgenerales/politicaseguridadinformacion.pdf">
-            <img
+            <img width={"100px"} height={"100px"}
               src="https://www.codere.es/assets1/logosAndSponsors/aenor.avif"
               alt="AENOR Seguridad Información"
             />

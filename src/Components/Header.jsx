@@ -227,6 +227,8 @@ function Header(props) {
           <InputGroup className='header-group-left'>
             <Nav.Link href='https://m.apuestas.codere.es/deportes/#/HomePage'>
               <LazyLoadImage
+                  width={"100px"}
+                  height={"35px"}
                 style={{ maxWidth: 150 }}
                 src={LOGO}
                 alt='Codere Casino Online en España'
