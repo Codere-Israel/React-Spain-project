@@ -1,83 +1,77 @@
 {
   "desktop_slide_list": [
     {
-      "image": "https://www.codere.es/assets1/splash-banners/atl-vs-real-desktop.avif",
-      "img_alt": "atl-vs-real",
-      "width": "100%",
-      "height": "auto",
-      "startDate": "2023-09-23T07:00:00Z",
-      "endDate": "2023-09-24T19:00:00Z",
+      "image": "https://www.codere.es/assets1/splash-banners/barcelona-real-madrid-desktop.avif",
+      "img_alt": "barcelona-real-madrid",
+      "startDate": "2023-10-25T09:00:00Z",
+      "endDate": "2023-10-28T14:15:00Z",
       "scheduled": true
     },
     {
       "image": "https://www.codere.es/assets1/splash-banners/la-liga-1-desktop.avif",
       "img_alt": "la-liga",
-      "width": "100%",
-      "height": "auto",
       "startDate": "2023-09-07T07:00:00Z",
       "endDate": "2023-12-31T17:00:00Z",
+      "scheduled": true
+    },
+    {
+      "image": "https://www.codere.es/assets1/splash-banners/aviator-mobile.avif",
+      "img_alt": "aviator",
+      "startDate": "2023-10-27T09:00:00Z",
+      "endDate": "2023-12-31T14:15:00Z",
       "scheduled": true
     },
     {
       "image": "https://www.codere.es/assets1/splash-banners/futbol-desktop.avif",
       "img_alt": "futbol",
-      "width": "100%",
-      "height": "auto",
       "scheduled": false
     },
     {
       "image": "https://www.codere.es/assets1/splash-banners/live-casino-desktop.avif",
       "img_alt": "Gana Grandes Jackpots en Codere",
-      "width": "100%",
-      "height": "auto",
       "scheduled": false
     },
     {
       "image": "https://www.codere.es/assets1/splash-banners/streaming-desktop.avif",
       "img_alt": "Fútbol en Directo desde Codere",
-      "width": "100%",
-      "height": "auto",
       "scheduled": false
     }
   ],
   "mobile_slide_list": [
     {
-      "image": "https://www.codere.es/assets1/splash-banners/atl-vs-real-mobile.avif",
-      "img_alt": "atl-vs-real",
-      "width": "100%",
-      "height": "auto",
-      "startDate": "2023-09-23T07:00:00Z",
-      "endDate": "2023-09-24T19:00:00Z",
+      "image": "https://www.codere.es/assets1/splash-banners/barcelona-real-madrid-mobile.avif",
+      "img_alt": "barcelona-real-madrid",
+      "startDate": "2023-10-25T09:00:00Z",
+      "endDate": "2023-10-28T14:15:00Z",
       "scheduled": true
     },
     {
       "image": "https://www.codere.es/assets1/splash-banners/la-liga-1-mobile.avif",
       "img_alt": "la-liga",
-      "width": "100%",
-      "height": "auto",
       "startDate": "2023-09-07T07:00:00Z",
       "endDate": "2023-12-31T17:00:00Z",
       "scheduled": true
     },
     {
+      "image": "https://www.codere.es/assets1/splash-banners/aviator-mobile.avif",
+      "img_alt": "aviator",
+      "startDate": "2023-10-27T09:00:00Z",
+      "endDate": "2023-12-31T14:15:00Z",
+      "scheduled": true
+    },
+    {
       "image": "https://www.codere.es/assets1/splash-banners/futbol-mobile.avif",
       "img_alt": "futbol",
-      "width": "100%",
-      "height": "auto",
       "scheduled": false
     },
     {
       "image": "https://www.codere.es/assets1/splash-banners/live-casino-mobile.avif",
       "img_alt": "Gana Grandes Jackpots en Codere",
-      "width": "100%",
-      "height": "auto",
       "scheduled": false
     },
     {
       "image": "https://www.codere.es/assets1/splash-banners/streaming-mobile.avif",
       "img_alt": "Fútbol en Directo desde Codere",
-      "width": "100%",
-      "height": "auto",
       "scheduled": false
     }
   ]
