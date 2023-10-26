@@ -1,6 +1,13 @@
 {
   "desktop_slide_list": [
     {
+      "image": "https://www.codere.es/assets1/splash-banners/crea-tu-apuesta-desktop.avif",
+      "img_alt": "crea-tu-apuesta",
+      "startDate": "2023-10-29T07:00:00Z",
+      "endDate": "2024-03-01T14:15:00Z",
+      "scheduled": true
+    },
+    {
       "image": "https://www.codere.es/assets1/splash-banners/barcelona-real-madrid-desktop.avif",
       "img_alt": "barcelona-real-madrid",
       "startDate": "2023-10-25T09:00:00Z",
@@ -31,6 +38,13 @@
     }
   ],
   "mobile_slide_list": [
+    {
+      "image": "https://www.codere.es/assets1/splash-banners/crea-tu-apuesta-mobile.avif",
+      "img_alt": "crea-tu-apuesta",
+      "startDate": "2023-10-29T07:00:00Z",
+      "endDate": "2024-03-01T14:15:00Z",
+      "scheduled": true
+    },    
     {
       "image": "https://www.codere.es/assets1/splash-banners/barcelona-real-madrid-mobile.avif",
       "img_alt": "barcelona-real-madrid",
