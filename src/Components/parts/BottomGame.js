@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
 import { NavLink } from 'react-bootstrap';
-import React from 'react';
+// import React from 'react';
 function BottomGame(props) {
   return (
     <NavLink

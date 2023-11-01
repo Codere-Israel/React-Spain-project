@@ -1,77 +1,102 @@
 {
   "desktop_slide_list": [
     {
-      "image": "https://www.codere.es/assets1/splash-banners/crea-tu-apuesta-desktop.avif",
+      "image": "https://www.codere.es/assets1/splash-banners/crea-tu-apuesta-desktop.webp",
       "img_alt": "crea-tu-apuesta",
+      "width": "100%",
+      "height": "auto",
       "startDate": "2023-10-29T07:00:00Z",
       "endDate": "2024-03-01T14:15:00Z",
       "scheduled": true
     },
     {
-      "image": "https://www.codere.es/assets1/splash-banners/barcelona-real-madrid-desktop.avif",
+      "image": "https://www.codere.es/assets1/splash-banners/barcelona-real-madrid-desktop.webp",
       "img_alt": "barcelona-real-madrid",
+      "width": "100%",
+      "height": "auto",
       "startDate": "2023-10-25T09:00:00Z",
       "endDate": "2023-10-28T14:15:00Z",
       "scheduled": true
     },
     {
-      "image": "https://www.codere.es/assets1/splash-banners/aviator-mobile.avif",
+      "image": "https://www.codere.es/assets1/splash-banners/aviator-desktop.webp",
       "img_alt": "aviator",
+      "width": "100%",
+      "height": "auto",
       "startDate": "2023-10-27T09:00:00Z",
       "endDate": "2023-12-31T14:15:00Z",
       "scheduled": true
     },
+
     {
-      "image": "https://www.codere.es/assets1/splash-banners/futbol-desktop.avif",
+      "image": "https://www.codere.es/assets1/splash-banners/futbol-desktop.webp",
       "img_alt": "futbol",
+      "width": "100%",
+      "height": "auto",
       "scheduled": false
     },
     {
-      "image": "https://www.codere.es/assets1/splash-banners/live-casino-desktop.avif",
+      "image": "https://www.codere.es/assets1/splash-banners/live-casino-desktop.webp",
       "img_alt": "Gana Grandes Jackpots en Codere",
+      "width": "100%",
+      "height": "auto",
       "scheduled": false
     },
     {
-      "image": "https://www.codere.es/assets1/splash-banners/streaming-desktop.avif",
+      "image": "https://www.codere.es/assets1/splash-banners/streaming-desktop.webp",
       "img_alt": "Fútbol en Directo desde Codere",
+      "width": "100%",
+      "height": "auto",
       "scheduled": false
     }
   ],
   "mobile_slide_list": [
     {
-      "image": "https://www.codere.es/assets1/splash-banners/crea-tu-apuesta-mobile.avif",
+      "image": "https://www.codere.es/assets1/splash-banners/crea-tu-apuesta-mobile.webp",
       "img_alt": "crea-tu-apuesta",
+      "width": "100%",
+      "height": "auto",
       "startDate": "2023-10-29T07:00:00Z",
       "endDate": "2024-03-01T14:15:00Z",
       "scheduled": true
-    },    
+    },
     {
-      "image": "https://www.codere.es/assets1/splash-banners/barcelona-real-madrid-mobile.avif",
+      "image": "https://www.codere.es/assets1/splash-banners/barcelona-real-madrid-mobile.webp",
       "img_alt": "barcelona-real-madrid",
+      "width": "100%",
+      "height": "auto",
       "startDate": "2023-10-25T09:00:00Z",
       "endDate": "2023-10-28T14:15:00Z",
       "scheduled": true
     },
     {
-      "image": "https://www.codere.es/assets1/splash-banners/aviator-mobile.avif",
+      "image": "https://www.codere.es/assets1/splash-banners/aviator-mobile.webp",
       "img_alt": "aviator",
+      "width": "100%",
+      "height": "auto",
       "startDate": "2023-10-27T09:00:00Z",
       "endDate": "2023-12-31T14:15:00Z",
       "scheduled": true
     },
     {
-      "image": "https://www.codere.es/assets1/splash-banners/futbol-mobile.avif",
+      "image": "https://www.codere.es/assets1/splash-banners/futbol-mobile.webp",
       "img_alt": "futbol",
+      "width": "100%",
+      "height": "auto",
       "scheduled": false
     },
     {
-      "image": "https://www.codere.es/assets1/splash-banners/live-casino-mobile.avif",
+      "image": "https://www.codere.es/assets1/splash-banners/live-casino-mobile.webp",
       "img_alt": "Gana Grandes Jackpots en Codere",
+      "width": "100%",
+      "height": "auto",
       "scheduled": false
     },
     {
-      "image": "https://www.codere.es/assets1/splash-banners/streaming-mobile.avif",
+      "image": "https://www.codere.es/assets1/splash-banners/streaming-mobile.webp",
       "img_alt": "Fútbol en Directo desde Codere",
+      "width": "100%",
+      "height": "auto",
       "scheduled": false
     }
   ]

@@ -433,6 +433,7 @@ body {
 .swiper-slide img {
   width: 100%;
   height: auto;
+  max-height: 890px;
 }
 
 .swiper-pagination-bullet-active {
@@ -1062,7 +1063,7 @@ footer.nb-footer .footer-info-single p {
 
 #legals img {
   position: relative;
-  width: 2vw;
+  width: 3vw;
   margin-right: 1vw;
 }
 

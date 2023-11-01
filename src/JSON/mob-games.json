@@ -5,35 +5,35 @@
       "name": "Live Mega Fire Blaze Ruleta",
       "alt": "Juego de Casino Live Mega Fire Blaze Ruleta",
       "gameType": "SlotsPage",
-      "imgUrl": "https://www.codere.es/assets1/games/mobileGames/PTLiveMegaFireBlazeRuleta_square.avif"
+      "imgUrl": "https://www.codere.es/assets1/games/mobileGames/PTLiveMegaFireBlazeRuleta_square.webp"
     },
     {
       "sponsor": "PT",
       "name": "Live Ruleta Coderista",
       "alt": "Juego de Live Ruleta Coderista",
       "gameType": "CasinoPage",
-      "imgUrl": "https://www.codere.es/assets1/games/mobileGames/PTLiveRuletaCoderista_square.avif"
+      "imgUrl": "https://www.codere.es/assets1/games/mobileGames/PTLiveRuletaCoderista_square.webp"
     },
     {
       "sponsor": "PT",
       "name": "Cashback Blackjack",
       "alt": "Juego de Casino Cashback Blackjack",
       "gameType": "CasinoPage",
-      "imgUrl": "https://www.codere.es/assets1/games/mobileGames/PTCashbackBlackjack_square.avif"
+      "imgUrl": "https://www.codere.es/assets1/games/mobileGames/PTCashbackBlackjack_square.webp"
     },
     {
       "sponsor": "PRP",
       "name": "Aviator",
       "alt": "Juego de Casino Aviator",
       "gameType": "CasinoPage",
-      "imgUrl": "https://www.codere.es/assets1/games/mobileGames/PRPAviator_square.avif"
+      "imgUrl": "https://www.codere.es/assets1/games/mobileGames/PRPAviator_square.webp"
     },
     {
       "sponsor": "PT",
       "name": "Premium European Roulette",
       "alt": "Juego de Casino Premium European Roulette",
       "gameType": "CasinoPage",
-      "imgUrl": "https://www.codere.es/assets1/games/mobileGames/PTPremiumEuropeanRoulette_square.avif"
+      "imgUrl": "https://www.codere.es/assets1/games/mobileGames/PTPremiumEuropeanRoulette_square.webp"
     }
   ],
   "second_slide_list": [
@@ -42,35 +42,35 @@
       "name": "Gates of Olympus",
       "alt": "Juego de Casino Gates of Olympus",
       "gameType": "SlotsPage",
-      "imgUrl": "https://www.codere.es/assets1/games/mobileGames/PGPGatesofOlympus_square.avif"
+      "imgUrl": "https://www.codere.es/assets1/games/mobileGames/PGPGatesofOlympus_square.webp"
     },
     {
       "sponsor": "PT",
       "name": "Age of the Gods God of Storms",
       "alt": "Juego de Casino Age of the Gods God of Storms",
       "gameType": "SlotsPage",
-      "imgUrl": "https://www.codere.es/assets1/games/mobileGames/PTAgeoftheGodsGodofStorms_square.avif"
+      "imgUrl": "https://www.codere.es/assets1/games/mobileGames/PTAgeoftheGodsGodofStorms_square.webp"
     },
     {
       "sponsor": "MGS",
       "name": "Amazing Link Zeus",
       "alt": "Juego de Casino Amazing Link Zeus",
       "gameType": "CasinoPage",
-      "imgUrl": "https://www.codere.es/assets1/games/mobileGames/MGSAmazingLinkZeus_square.avif"
+      "imgUrl": "https://www.codere.es/assets1/games/mobileGames/MGSAmazingLinkZeus_square.webp"
     },
     {
       "sponsor": "PT",
       "name": "BOOM",
       "alt": "Juego de Casino BOOM",
       "gameType": "CasinoPage",
-      "imgUrl": "https://www.codere.es/assets1/games/mobileGames/PTBOOM_square.avif"
+      "imgUrl": "https://www.codere.es/assets1/games/mobileGames/PTBOOM_square.webp"
     },
     {
       "sponsor": "MGS",
       "name": "Scarab Cash",
       "alt": "Juego de Casino Scarab Cash",
       "gameType": "CasinoPage",
-      "imgUrl": "https://www.codere.es/assets1/games/mobileGames/MGSScarabCash_square.avif"
+      "imgUrl": "https://www.codere.es/assets1/games/mobileGames/MGSScarabCash_square.webp"
     }
   ]
 }
