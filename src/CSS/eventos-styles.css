@@ -65,6 +65,8 @@ span.colored {
 .event ul {
   color: #fff;
   padding-left: 0;
+  margin-left: 1rem;
+  line-height: 1.8rem;
 }
 
 #eventos ul li,
