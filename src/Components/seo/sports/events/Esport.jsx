@@ -7,7 +7,7 @@ import { LazyLoadImage } from 'react-lazy-load-image-component';
 export default function Esport(props) {
   const title = 'Guía de apuestas para Esports | Codere®';
   const description =
-    'Las apuestas de Esports son muy diferentes dependiendo del tipo de juego. Conoce aquí el tipo de apuesta más usado en la Casa de apuestas Codere';
+    'Las apuestas de Esports son muy diferentes dependiendo del tipo de juego Conoce aquí el tipo de apuesta más usado en la Casa de apuestas Codere';
   const json = {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
@@ -48,118 +48,128 @@ export default function Esport(props) {
     h1: 'Guía de apuestas para Esports',
   };
 
-  const origen = {
-    id: 'origen',
-    h2: 'Origen del Campeonato Mundial de League of Legends',
-    p1: 'El Mundial de League of Legends fue creado por primera vez en el año 2011 por los mismos creadores del juego, RIOT Games. La idea del evento era la misma que hoy en día, reunir a los mejores jugadores del mundo para competir entre ellos, con un premio para el equipo ganador de 50.000 dólares. Este primer evento se realizó en Suiza y enfrentó a las dos grandes potencias: Norteamérica y Europa, consiguiendo este último el primer título.',
-    p2: 'Pero fue la segunda edición la que fue un punto de inflexión, produciéndose cambios significativos. Se produjo en Estados Unidos, tuvo de público a más de 5.000 personas y contó con siete millones de personas siguiendo el evento a través del streaming. Además, el premio ascendió hasta el millón de dólares. Con la llegada del COVID en 2020, el evento pasó a hacerse sin público y rompió récord de streaming con más de 44 millones de espectadores.',
+  const openingQuestion = {
+    id: 'openingQuestion',
+    h2: '¿Qué son los esports y cómo apostar?',
+    p1: 'Los eSports, abreviatura de "electronic sports" o deportes electrónicos, son competiciones de videojuegos organizadas a nivel profesional. En estos eventos, jugadores individuales o equipos compiten en videojuegos populares como League of Legends, Counter-Strike, Dota 2 y muchos otros. ',
+    p2: 'Los eSports atraen a una audiencia global y cuentan con ligas, torneos y campeonatos que ofrecen premios significativos, creando una industria en auge en la que los jugadores son considerados atletas virtuales.',
+    p3: 'Para apostar en eSports, los aficionados pueden recurrir a casas de apuestas en línea especializadas como Codere que ofrece una amplia variedad de mercados de apuestas. ',
+    p4: 'Los apostadores pueden elegir entre opciones como el resultado de un partido, el equipo que ganará un torneo, el número de rondas o mapas jugados, entre otros. Es importante investigar a los equipos y jugadores, seguir las tendencias y estadísticas, y estar al tanto de las últimas noticias para tomar decisiones informadas al apostar en eSports. Como en cualquier forma de apuestas, es crucial apostar de manera responsable y consciente de los riesgos asociados con el juego.',
   };
 
-  const calendario = {
-    id: 'calendario',
-    h2: 'Calendario del Torneo World Championship 2022',
-    p: 'Al igual que en el año 2016, los World Championship de este año regresan a América del Norte, exactamente en Los Ángeles (Estados Unidos). Las fechas exactas se desconocen todavía pero seguramente será durante los últimos meses del año 2022.',
+  const topDeJuegos = {
+    id: 'topDeJuegos',
+    h2: 'Top de juegos',
+    p1: 'Los juegos más populares en las ligas de eSports pueden variar con el tiempo, pero algunos títulos han mantenido su posición en la cima durante años. Juegos como League of Legends  continúan siendo una fuerza dominante en el mundo de los eSports. En éste se reúnen  equipos de cinco jugadores que compiten en partidas estratégicas. Además, Counter-Strike: Global Offensive (CS: GO) de Valve Corporation es otro título que ha mantenido su popularidad en las ligas de eSports. Este juego de disparos en primera persona se ha convertido en un referente en la escena competitiva, donde los equipos se enfrentan en emocionantes partidas de táctica y precisión.',
+    p2: 'Otros juegos que han ganado relevancia en los eSports incluyen Dota 2, Overwatch, EAFC 24 y Rainbow Six Siege, cada uno con sus propias comunidades de seguidores y competiciones de alto nivel.',
   };
 
-  const tips = {
-    id: 'tips',
-    h2: 'Tipos de Apuestas en Esports',
-    p: 'Las apuestas de Esports son muy diferentes dependiendo del tipo de juego que se está realizando. Hay juegos de combate, estrategia en tiempo real o deportivos. Sabiendo esto, vamos a conocer el tipo de apuesta más usado en Codere:',
+  const losMejoresEquipos  = {
+    id: 'losMejoresEquipos',
+    h2: 'Los Mejores equipos ',
+    p1: 'Identificar los mejores equipos de eSports puede ser subjetivo y dependerá del juego específico en el que compiten. Sin embargo, algunos clubes han mantenido un alto nivel de éxito a lo largo de varios títulos y son ampliamente reconocidos en la industria. Por ejemplo, el equipo coreano de League of Legends, T1 (al principio se le conocía como SK Telecom T1), es considerado uno de los mejores equipos en la historia de los eSports, habiendo ganado múltiples campeonatos mundiales. En el ámbito de los juegos de disparos en primera persona, equipos como Astralis en Counter-Strike: Global Offensive han sido dominantes.',
+    p2: 'Otros equipos notables incluyen Fnatic, un equipo europeo que ha tenido éxito en múltiples juegos, y el equipo chino Invictus Gaming en League of Legends. En última instancia, la clasificación de los mejores equipos de eSports cambia con el tiempo y puede variar según el juego, la región y la época, pero estos equipos mencionados han dejado una marca duradera en la escena de los deportes electrónicos gracias a sus logros y sus talentosos jugadores.',
+  };
+
+  const principalesTorneos  = {
+    id: 'principalesTorneos',
+    h2: 'Principales torneos',
+    p: 'Los mejores torneos de eSports suelen destacar por su longevidad, calidad de los competidores y premios en efectivo. A continuación mencionaremos dos de los eventos más prestigiosos en la escena de los eSports:',
     inner: [
       {
-        h3: 'Ganador final',
-        text: 'Sirve para pronosticar que jugador o equipo logrará ganar la partida, el campeonato o competición en cuestión. Se trata de una apuesta a largo plazo y la mejor manera de conseguir la mayor cuota es apostando cuanto antes.',
+        h3: 'Campeonato Mundial de League of Legends',
+        p: 'Organizado por Riot Games. Este torneo anual reúne a los mejores equipos de todo el mundo en un emocionante enfrentamiento por el título de campeón mundial y ofrece una audiencia masiva y premios millonarios.',
       },
       {
-        h3: 'Ganador de mapa',
-        text: 'Los mapas consisten en ser el mejor de 30 rondas. El equipo que llegue primero a las 16 rondas ganadas, se proclama ganador del mapa. Tras las primeras 15 rondas, los equipos cambian de bando. Además, si el partido llega a un 15-15 en el marcador se juegan sucesivas prórrogas de 6 rondas cada una (3 rondas en cada bando) hasta que un equipo gane al menos 4 rondas en una prórroga.',
-      },
-      {
-        h3: 'Handicap (por rondas)',
-        text: 'El hándicap es un valor que se le resta al favorito o se le añade al underdog para compensar sus posibilidades de victoria e igualar las cuotas de forma aproximada.',
-      },
-      {
-        h3: 'Ganador de la Ronda de Pistolas',
-        text: 'El ganador de la ronda de pistolas en los Esports, se refiere al equipo vencedor que consigue ganar la primera ronda del mapa.',
+        h3: 'The International, un campeonato de Dota 2',
+        p: 'Organizado por Valve Corporation. The International es famoso por su premio en efectivo que a menudo supera los 30 millones de dólares, lo que lo convierte en uno de los torneos más lucrativos en la historia de los eSports. Otros eventos destacados incluyen el Campeonato Mundial de Counter-Strike: Global Offensive (CS: GO), la Overwatch League Grand Finals y el Campeonato Mundial de Fortnite, que se han consolidado como pilares importantes en la escena de los eSports y atraen a una gran audiencia de fanáticos de todo el mundo.',
       },
     ],
   };
 
-  const mejores = {
-    id: 'mejores',
-    h2: 'Los mejores equipos por zonas',
-    p: 'Existe una gran competencia en los Esports, por lo que cada año, los equipos buscan fichar a los mejores jugadores para buscar la gloria. Aquí te dejamos una lista de los mejores equipos en el mundo:',
+  const tiposDeApuestasEnEsports = {
+    id: 'tiposDeApuestasEnEsports',
+    h2: 'Tipos de Apuestas en Esports ',
+    p: 'Las apuestas en los eSports ofrecen una variedad de opciones populares, que incluyen:',
     inner: [
       {
-        h3: 'Team Liquid',
-        p: 'Es el equipo que más dinero ha generado en los Esports (casi 36 millones de euros). El equipo de los Países Bajos es considerado la gran bestia de la industria.',
+        liBold: 'Apuestas al Ganador del Partido',
+        liText: 'Los apostadores eligen al equipo o jugador que creen que ganará el enfrentamiento.',
       },
       {
-        h3: 'OG',
-        p: 'Especializados en Dota 2, son un equipo relativamente nuevo, pero ya ha logrado levantar el título en dos ocasiones consecutivas.',
+        liBold: 'Apuestas al Handicap',
+        liText: 'Estas ajustan las probabilidades al dar ventaja o desventaja a un equipo para equilibrar las posibilidades de apuesta.',
       },
       {
-        h3: 'Evil Geniuses',
-        p: 'Es uno de los equipos con más presencia en los Esports. Han participado en más de 60 torneos de Esports y es un equipo norteamericano.',
+        liBold: 'Apuestas al Resultado Correcto',
+        liText: 'Los apostadores apuestan por un resultado específico en un juego o serie de juegos.',
       },
       {
-        h3: 'Fnatic',
-        p: 'Es uno de los equipos más queridos por la comunidad por sus grandes jugadas en el ambiente competitivo. Se han logrado coronar como campeones en CS:GO y cuentan con su sede en Londras, Reino Unido.',
+        liBold: 'Apuestas a los Totales',
+        liText: 'Se centran en aspectos como el número total de rondas, puntos o goles marcados en una partida.',
       },
       {
-        h3: 'Virtus Pro',
-        p: 'Este equipo sueco es uno de los más importantes de la escena europea. Es uno de los equipos veteranos y, pese a no ganar muchos torneos, siempre se mantienen a un buen nivel.',
+        liBold: 'Apuestas en Vivo',
+        liText: 'Permiten hacer predicciones en tiempo real durante un evento.',
       },
       {
-        h3: 'Faze Clan',
-        p: 'Nacidos en California, es uno de los equipos con mayor número de seguidores en sus redes sociales.',
+        liBold: 'Apuestas Ganador Final',
+        liText: 'en eSports implican elegir al equipo o jugador que se prevé ganará el torneo por completo, siendo una de las apuestas más emocionantes.',
       },
       {
-        h3: 'Cloud9',
-        p: 'El equipo norteamericano es uno de los más estables de la actualidad y, el que mayor valor como empresa tiene en el mundo.',
+        liBold: 'Apuesta Ganador de Mapa ',
+        liText: 'implican predecir qué equipo o jugador ganará un mapa específico en una partida o serie de eSports. Esto añade emoción al permitir apostar en mapas individuales.',
       },
       {
-        h3: 'SK Telecom',
-        p: 'Este equipo surcoreano se hizo grande en la escena competitiva con League of Legends. Cuenta con figuras como Faker y además ha logrado llevarse el título en tres ocasiones consecutivas.',
+        liBold: 'Handicap (por Ronda)',
+        liText: 'dan ventaja o desventaja a un equipo antes de una partida o ronda, comunes en juegos de disparos en primera persona como Counter-Strike: Global Offensive.',
+      },
+      {
+        liBold: 'Ganador de Ronda',
+        liText: 'se centran en predecir qué equipo ganará una ronda específica, considerando el conocimiento de los equipos, su rendimiento previo, estrategias y condiciones del juego.',
       },
     ],
   };
 
-  const preguntas = {
-    id: 'preguntas',
-    h2: 'Preguntas frecuentes sobre Esports',
+  const preguntasFrecuentes  = {
+    id: 'preguntasFrecuentes',
+    h2: 'Preguntas Frecuentes',
     inner: [
       {
-        h3: '¿Qué son los esports? ',
-        p: 'Los Esports son competiciones que se desarrollan en el mundo de los videojuegos y que están logrando ganar terreno en la industria del entretenimiento.',
+        h3: '¿Dónde ver los torneos de esports? ',
+        p: 'Los torneos de eSports se transmiten en vivo en plataformas como Twitch, YouTube Gaming y Facebook Gaming, y también en canales oficiales de juegos. Incluso redes tradicionales como ESPN y CBS transmiten eventos de eSports, brindando opciones variadas a los fanáticos.',
       },
       {
-        h3: '¿Qué es un back to back de la NBA?',
-        p: 'Lo que se conoce como back to back en el baloncesto se refiere a aquellos partidos que juegan los equipos durante la temporada regular entre los que no hay días de descanso. ',
+        h3: '¿Es legal apostar en esports? ',
+        p: 'En España, las apuestas en eSports son legales y están reguladas por la Dirección General de Ordenación del Juego (DGOJ), que es la entidad encargada de regular y supervisar las actividades de juego en línea en el país. Esto significa que los operadores de apuestas en línea que ofrecen apuestas en eSports deben obtener una licencia de la DGOJ para operar legalmente en España.',
       },
     ],
   };
 
   const table_list = [
     {
-      title: 'Origen del Campeonato Mundial de League of Legends',
-      id: 'origen',
+      title: '¿Qué son los esports y cómo apostar?',
+      id: 'openingQuestion',
     },
     {
-      title: 'Calendario del Torneo World Championship 2022',
-      id: 'calendario',
+      title: 'Top de juegos',
+      id: 'topDeJuegos',
+    },
+    {
+      title: 'Los Mejores equipos',
+      id: 'losMejoresEquipos',
+    },
+    {
+      title: 'Principales torneos',
+      id: 'principalesTorneos',
     },
     {
       title: 'Tipos de Apuestas en Esports',
-      id: 'tipos',
+      id: 'tiposDeApuestasEnEsports',
     },
     {
-      title: 'Los mejores equipos por zonas',
-      id: 'mejores',
-    },
-    {
-      title: 'Preguntas frecuentes sobre Esports',
-      id: 'preguntas',
+      title: 'Preguntas frecuentes',
+      id: 'preguntasFrecuentes',
     },
   ];
 
@@ -199,10 +209,12 @@ export default function Esport(props) {
             {!props.flag ? <TableOfContents table={table_list} /> : <></>}
             <div className='mb-4' />
 
-            <div id={origen.id}>
-              <h2>{origen.h2}</h2>
-              <p>{origen.p1}</p>
-              <p>{origen.p2}</p>
+            <div id={openingQuestion.id}>
+              <h2>{openingQuestion.h2}</h2>
+              <p>{openingQuestion.p1}</p>
+              <p>{openingQuestion.p2}</p>
+              <p>{openingQuestion.p3}</p>
+              <p>{openingQuestion.p4}</p>
             </div>
 
             <LazyLoadImage
@@ -211,22 +223,31 @@ export default function Esport(props) {
             />
             <div
               className='mt-4'
-              id={calendario.id}>
-              <h2>{calendario.h2}</h2>
-              <p>{calendario.p}</p>
+              id={topDeJuegos.id}>
+              <h2>{topDeJuegos.h2}</h2>
+              <p>{topDeJuegos.p1}</p>
+              <p>{topDeJuegos.p2}</p>
+            </div>
+            <div
+              className='mt-4'
+              id={losMejoresEquipos.id}>
+              <h2>{losMejoresEquipos.h2}</h2>
+              <p>{losMejoresEquipos.p1}</p>
+              <p>{losMejoresEquipos.p2}</p>
             </div>
 
             <div
               className='mt-4'
-              id={tips.id}>
-              <h2>{tips.h2}</h2>
+              id={principalesTorneos.id}>
+              <h2>{principalesTorneos.h2}</h2>
+              <p>{principalesTorneos.p}</p>
               <Accordion>
-                {tips.inner.map((inn, k) => (
+                {principalesTorneos.inner.map((inn, k) => (
                   <Accordion.Item
                     key={k}
                     eventKey={k}>
                     <Accordion.Header as={'h3'}>{inn.h3}</Accordion.Header>
-                    <Accordion.Body>{inn.text}</Accordion.Body>
+                    <Accordion.Body>{inn.p}</Accordion.Body>
                   </Accordion.Item>
                 ))}
               </Accordion>
@@ -237,24 +258,26 @@ export default function Esport(props) {
             />
 
             <div
-              id={mejores.id}
+              id={tiposDeApuestasEnEsports.id}
               className='mt-4'>
-              <h2>{mejores.h2}</h2>
-              <p>{mejores.p}</p>
-              {mejores.inner.map((m, k) => (
-                <div key={k}>
-                  <h3>{m.h3}</h3>
-                  <p>{m.p}</p>
-                </div>
-              ))}
+              <h2>{tiposDeApuestasEnEsports.h2}</h2>
+              <p>{tiposDeApuestasEnEsports.p}</p>
+              <ul>
+                {tiposDeApuestasEnEsports.inner.map((m, k) => (
+                  <li key={k}>
+                    <strong>{m.liBold}</strong>:
+                    {m.liText}
+                  </li>
+                ))}
+              </ul>
             </div>
 
             <div
               className='mt-4'
-              id={preguntas.id}>
-              <h2>{preguntas.h2}</h2>
+              id={preguntasFrecuentes.id}>
+              <h2>{preguntasFrecuentes.h2}</h2>
               <Accordion>
-                {preguntas.inner.map((inn, k) => (
+                {preguntasFrecuentes.inner.map((inn, k) => (
                   <Accordion.Item
                     key={k}
                     eventKey={k}>
