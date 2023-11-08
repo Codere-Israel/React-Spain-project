@@ -265,7 +265,7 @@ export default function Esport(props) {
               <ul>
                 {tiposDeApuestasEnEsports.inner.map((m, k) => (
                   <li key={k}>
-                    <strong>{m.liBold}</strong>:
+                    <u>{m.liBold}</u>: 
                     {m.liText}
                   </li>
                 ))}
