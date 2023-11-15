@@ -1,5 +1,14 @@
 {
   "desktop_slide_list": [
+        {
+      "image": "https://www.codere.es/assets1/splash-banners/spain-vs-georgia-desktop.webp",
+      "img_alt": "spain-vs-georgia",
+      "width": "100%",
+      "height": "auto",
+      "startDate": "2023-11-17T09:00:00Z",
+      "endDate": "2023-11-19T19:45:00Z",
+      "scheduled": true
+    },
     {
       "image": "https://www.codere.es/assets1/splash-banners/crea-tu-apuesta-desktop.webp",
       "img_alt": "crea-tu-apuesta",
@@ -7,15 +16,6 @@
       "height": "auto",
       "startDate": "2023-10-29T07:00:00Z",
       "endDate": "2024-03-01T14:15:00Z",
-      "scheduled": true
-    },
-    {
-      "image": "https://www.codere.es/assets1/splash-banners/barcelona-real-madrid-desktop.webp",
-      "img_alt": "barcelona-real-madrid",
-      "width": "100%",
-      "height": "auto",
-      "startDate": "2023-10-25T09:00:00Z",
-      "endDate": "2023-10-28T14:15:00Z",
       "scheduled": true
     },
     {
@@ -52,21 +52,21 @@
   ],
   "mobile_slide_list": [
     {
+      "image": "https://www.codere.es/assets1/splash-banners/spain-vs-georgia-mobile.webp",
+      "img_alt": "spain-vs-georgia",
+      "width": "100%",
+      "height": "auto",
+      "startDate": "2023-11-17T09:00:00Z",
+      "endDate": "2023-11-19T19:45:00Z",
+      "scheduled": true
+    },
+    {
       "image": "https://www.codere.es/assets1/splash-banners/crea-tu-apuesta-mobile.webp",
       "img_alt": "crea-tu-apuesta",
       "width": "100%",
       "height": "auto",
       "startDate": "2023-10-29T07:00:00Z",
       "endDate": "2024-03-01T14:15:00Z",
-      "scheduled": true
-    },
-    {
-      "image": "https://www.codere.es/assets1/splash-banners/barcelona-real-madrid-mobile.webp",
-      "img_alt": "barcelona-real-madrid",
-      "width": "100%",
-      "height": "auto",
-      "startDate": "2023-10-25T09:00:00Z",
-      "endDate": "2023-10-28T14:15:00Z",
       "scheduled": true
     },
     {
