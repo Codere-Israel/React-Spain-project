@@ -1,6 +1,6 @@
 import { Zoom } from 'react-awesome-reveal';
 import { Accordion, Table } from 'react-bootstrap';
-// import React from 'react';
+import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 var questions = [

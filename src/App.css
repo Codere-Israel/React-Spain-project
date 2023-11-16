@@ -40,12 +40,10 @@ body {
 /*  !*aspect-ratio: 16 / 9 !important;*!*/
 /*  }*/
 
-
-
 .apps a:nth-child(2) img {
-  height : 4.5rem !important;
+  height: 4.5rem !important;
   width: fit-content !important;
-  }
+}
 .mobileViewAppLogos {
   align-items: center;
   display: flex;
@@ -53,7 +51,7 @@ body {
   padding: 0;
   margin: 0;
   justify-content: center;
-  }
+}
 /* Cookie Consent */
 .cookie-content h3,
 .cookie-content a {
@@ -1104,9 +1102,9 @@ footer.nb-footer .footer-info-single p {
 }
 
 .apps a:nth-child(1) img {
-  height : 3rem !important;
+  height: 3rem !important;
   width: auto;
-  }
+}
 
 .apps a:nth-child(2) img {
   height: 4.5rem;
@@ -1396,8 +1394,14 @@ footer.nb-footer .footer-info-single p {
   }
 
   .swiper-pagination-bullet {
-    width: var(--swiper-pagination-bullet-width, var(--swiper-pagination-bullet-size, 10px));
-    height: var(--swiper-pagination-bullet-height, var(--swiper-pagination-bullet-size, 10px));
+    width: var(
+      --swiper-pagination-bullet-width,
+      var(--swiper-pagination-bullet-size, 10px)
+    );
+    height: var(
+      --swiper-pagination-bullet-height,
+      var(--swiper-pagination-bullet-size, 10px)
+    );
   }
 
   /* End Games  */

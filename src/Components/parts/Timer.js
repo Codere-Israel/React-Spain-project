@@ -1,7 +1,7 @@
 import React from "react";
 import counterCSS from "../CSS/counter.module.css";
 import { useCountdown } from "../Hooks/useCountdown";
-import { Fade } from "react-awesome-reveal";
+import { Zoom, Slide, Fade } from "react-awesome-reveal";
 
 const Timer = () => {
   const dateToCount = "2022-11-20T16:00:00Z";

@@ -1,4 +1,4 @@
-// import React from 'react';
+import React from 'react';
 import { menuItems } from '../data/menuItems';
 import { NavLink } from 'react-router-dom';
 

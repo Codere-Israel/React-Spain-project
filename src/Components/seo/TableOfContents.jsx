@@ -6,7 +6,6 @@ export default function TableOfContents(props) {
   const link = (instnace) => {
     return (
       <div className="_tx flexed-centered">
-        {/* <FontAwesomeIcon icon={faAngleRight} /> */}
         <Nav.Link href={`#${instnace.id}`}>
           <i></i>
           {instnace.title}
