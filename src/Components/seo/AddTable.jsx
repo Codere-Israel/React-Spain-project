@@ -1,13 +1,14 @@
-import { Table } from 'react-bootstrap';
+import { Table } from "react-bootstrap";
 
 export default function AddTable(props) {
   return (
     <Table
-      style={{ textAlign: 'left', maxWidth: '250rem', margin: 0 }}
+      style={{ textAlign: "left", maxWidth: "250rem", margin: 0 }}
       striped
       bordered
       hover
-      variant='dark'>
+      variant="dark"
+    >
       <thead>
         <tr>
           {props.table.th.map((t, k) => (

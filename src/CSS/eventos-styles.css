@@ -24,7 +24,8 @@ body {
 
 .colored {
   color: #79c000;
-  filter: invert(55%) sepia(103%) saturate(1266%) hue-rotate(62deg) brightness(94%) contrast(77%);
+  filter: invert(55%) sepia(103%) saturate(1266%) hue-rotate(62deg)
+    brightness(94%) contrast(77%);
 }
 
 .e-nav span {
@@ -50,7 +51,8 @@ span.colored {
 
 .e-nav a:hover,
 .e-nav a:hover span {
-  filter: invert(55%) sepia(103%) saturate(1266%) hue-rotate(62deg) brightness(94%) contrast(77%);
+  filter: invert(55%) sepia(103%) saturate(1266%) hue-rotate(62deg)
+    brightness(94%) contrast(77%);
   /* border-bottom: 3px solid #79c000;
   height: 2rem; */
   /* border-radius: 0.25rem; */
@@ -67,11 +69,6 @@ span.colored {
   padding-left: 0;
   margin-left: 1rem;
   line-height: 1.8rem;
-}
-
-#eventos ul li,
-.event ul li {
-  /* list-style-type: none; */
 }
 
 #eventos p,
@@ -258,8 +255,18 @@ span.colored {
 }
 
 .shining {
-  -webkit-mask-image: linear-gradient(45deg, #000 25%, rgba(0, 0, 0, 0.2) 50%, #000 75%);
-  mask-image: linear-gradient(45deg, #000 25%, rgba(0, 0, 0, 0.1) 50%, #000 75%);
+  -webkit-mask-image: linear-gradient(
+    45deg,
+    #000 25%,
+    rgba(0, 0, 0, 0.2) 50%,
+    #000 75%
+  );
+  mask-image: linear-gradient(
+    45deg,
+    #000 25%,
+    rgba(0, 0, 0, 0.1) 50%,
+    #000 75%
+  );
   -webkit-mask-size: 800%;
   mask-size: 800%;
   -webkit-mask-position: 0;

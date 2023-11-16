@@ -7,9 +7,9 @@ function TopGame(props) {
     <div className="topGame">
       <div className="card">
         {/* <i class="fal fa-arrow-right"></i> */}
-        <img className="game_logo" width={"100px"} height={"100px"} src={props.logo} alt={props.logoAlt} />
+        <img className="game_logo" src={props.logo} alt={props.logoAlt} />
         <a href={props.gameLink} rel={"nofollow"}>
-          <img width={"100px"} height={"100px"} className="topGameImage" src={props.imgSrc} alt={props.alt} />
+          <img className="topGameImage" src={props.imgSrc} alt={props.alt} />
         </a>
         <div className="game_info">
           <h3 className="topGameTitle">{props.game_name}</h3>
