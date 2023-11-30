@@ -35,8 +35,10 @@ import { LazyLoadImage } from 'react-lazy-load-image-component';
 //   }
 // }
 // const URL = 'https://dm.apuestas.codere.es/LoginServicesESApi/login/web';
-const LOGO = 'https://www.codere.es/_catalogs/masterpage/codere/img/logo.svg';
-
+const LOGO =
+new Date() <= new Date("2023-12-30T22:00:00Z") && new Date() >= new Date("2023-12-01T07:00:00Z")
+  ? "https://www.codere.es/_catalogs/masterpage/codere/img/christmassLogo.gif"
+  : "https://www.codere.es/_catalogs/masterpage/codere/img/logo.svg";
 const AviatorLogo = 'https://www.codere.es/_catalogs/masterpage/codere/images/splash/aviator.svg';
 
 function Header(props) {
