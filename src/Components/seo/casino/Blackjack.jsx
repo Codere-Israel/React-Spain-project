@@ -159,7 +159,7 @@ const Blackjack = (props) => {
       id: 'como_jugar',
     },
     {
-      title: 'Preguntas frecuentes sobre Blackjack::',
+      title: 'Preguntas frecuentes sobre Blackjack:',
       id: 'preguntas',
     },
   ];
