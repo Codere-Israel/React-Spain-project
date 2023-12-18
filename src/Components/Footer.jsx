@@ -142,12 +142,6 @@ const Footer = () => {
 						<img
 							width="100"
 							height="100"
-							src="https://www.codere.es/assets1/logosAndSponsors/muchbetter.webp"
-							alt="MuchBetter"
-						/>
-						<img
-							width="100"
-							height="100"
 							src="https://www.codere.es/assets1/logosAndSponsors/newImges/cs-logo_HalCash.webp"
 							alt="halcash"
 						/>
