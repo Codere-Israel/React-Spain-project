@@ -10,7 +10,7 @@ function StickyFooter() {
         DEPORTES
       </a>
       <a
-        href="https://m.apuestas.codere.es/deportes/index.htm#/CasinoPage?category=Juegos%20de%20Mesa"
+        href="https://m.apuestas.codere.es/deportes/#/CasinoPage?category=Juegos%20de%20Mesa"
         className="sticky-item"
         rel="nofollow"
       >
