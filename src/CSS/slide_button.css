@@ -1,16 +1,12 @@
 /* CSS */
 
-.mobile_regis {
-}
-
 .mobile_regis:active {
   box-shadow: 0 0.3em 1em -0.5em #14a73e98;
 }
 
 .ReactSwipeButton.mobile_regis {
-  width: 90%;
-  z-index: 999999999999999999999;
-  /* height: 12vw; */
+  width: 77vw;
+  height: 16vw;
   box-shadow: 0px 7px 7px -4px rgb(0 0 0);
 }
 
@@ -24,16 +20,12 @@
   margin: auto;
   float: left;
   width: 85%;
-  height: 55px;
+  height: 50px;
   position: absolute;
-  bottom: 75px;
-  z-index: 999999999;
+  bottom: 27.5vw;
+  z-index: 1;
 }
 
-.slide-arrow {
-  font-size: 35px;
-  font-weight: 700;
-}
 .ReactSwipeButton,
 .ReactSwipeButton * {
   -webkit-touch-callout: none;
@@ -81,12 +73,12 @@
 
 .rsbContainerUnlocked .rsbcSliderArrow {
   transition: 0.5s;
-  margin-right: -13px;
+  margin-right: -3vw;
 }
 
 .rsbContainerUnlocked .rsbcSliderCircle {
   transition: 0.5s;
-  margin-right: -13px;
+  margin-right: -3vw;
 }
 
 .rsbcSlider {
@@ -94,9 +86,9 @@
   float: left;
   width: 100%;
   position: relative;
-  height: 20px;
-  top: 3px;
-  left: 60px;
+  height: 50px;
+  top: 0;
+  left: 13vw;
   margin-left: -100%;
   border-radius: 25px;
   z-index: 1;
@@ -112,8 +104,8 @@
   right: 0;
   line-height: 50px;
   text-align: center;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva,
+    Verdana, sans-serif;
   letter-spacing: 2px;
   color: #fff;
   font-size: 13px;
@@ -127,8 +119,8 @@
 }
 
 .rsbcSliderCircle .svg-inline--fa {
-  top: 10px;
-  width: 30px;
+  top: 2.2vw;
+  width: 5vw;
   height: auto;
   animation-name: sds2;
   animation-duration: 750ms;
@@ -163,10 +155,10 @@
   text-align: center;
   color: #fff;
   background: #12459e;
-  right: 0vw;
-  top: 0;
-  height: 45px;
-  width: 50px;
+  right: -2.5vw;
+  top: 1.8vw;
+  height: 13vw;
+  width: 13.5vw;
   border-radius: 100%;
   z-index: 999999999;
   /* transition: all 3s; */
@@ -174,18 +166,18 @@
 
 .rsbcText {
   position: absolute;
-  left: 50px;
+  left: 9vw;
   color: #fff;
   text-align: center;
   float: left;
   font-family: Roboto, sans-serif;
-  font-size: 2rem;
+  font-size: 6vw;
   font-weight: 700;
   letter-spacing: 1px;
-  line-height: 1;
+  line-height: 16vw;
   right: 0;
   text-transform: uppercase;
-  top: 10px;
+  top: 0.4vw;
 }
 
 /* Shine */
