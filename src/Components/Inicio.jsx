@@ -2,7 +2,7 @@ import "@fontsource/roboto";
 import "@fontsource/roboto-condensed";
 
 import { Helmet } from "react-helmet";
-import MySwiper from "./parts/MySwiperV2";
+import MySwiper from "./parts/MySwiper";
 import Games from "./parts/Games";
 import Content from "./parts/Content";
 
