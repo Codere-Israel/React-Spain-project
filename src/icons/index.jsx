@@ -24,3 +24,4 @@ export { ReactComponent as CodereChat } from './social/contact-us-icon.svg';
 
 //other
  export { ReactComponent as Arrowrightw } from './other/icon-arrow-right-white.svg';
+ export { ReactComponent as Arrowdown } from './other/arrowdownwhite.svg';
