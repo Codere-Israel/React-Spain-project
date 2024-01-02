@@ -15,7 +15,7 @@ import "swiper/css/effect-fade";
 import "swiper/css/autoplay";
 
 var imgs = [];
-function MySwiper(props) {
+function MySwiper({device}) {
   // const BROADCAST_DATE = "2022-10-30T19:00:00Z";
   const DATE_TO_COUNT = "2022-12-18T15:00:00Z";
   const [showTimer, setShowTimer] = useState(false);
@@ -96,7 +96,7 @@ function MySwiper(props) {
     setShowTimer(true);
   };
 
-  if (!props.flag) imgs = banners.desktop_slide_list.filter(BannerFilter);
+  if (!device) imgs = banners.desktop_slide_list.filter(BannerFilter);
   else imgs = banners.mobile_slide_list.filter(BannerFilter);
   return (
     <div id="carousel-section">
@@ -128,7 +128,7 @@ function MySwiper(props) {
           ))}
         </Swiper>
 
-        {!props.flag ? (
+        {!device ? (
           <>
             <div>
               <Button
