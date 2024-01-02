@@ -3,6 +3,6 @@ const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPl
 
 module.exports = override(
 	addWebpackPlugin(new BundleAnalyzerPlugin({
-		analyzerPort: 9100 // or any other available port
+		analyzerPort: 9300 // or any other available port
 	}))
 );
