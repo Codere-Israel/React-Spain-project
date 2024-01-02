@@ -30,7 +30,7 @@ function MySwiper(props) {
 
   const siteData = {
     acceder: {
-      url: "https://m.apuestas.codere.es/deportes/index.htm#/HomePage?openlogin=true",
+      url: "https://m.apuestas.codere.es/deportes/#/HomePage?openlogin=true",
       txt: "Acceder",
     },
     registrate: {
@@ -63,15 +63,15 @@ function MySwiper(props) {
         text: "CASINO",
       },
       {
-        url: "https://m.apuestas.codere.es/deportes/index.htm#/CasinoPage?category=En%20Vivo",
+        url: "https://m.apuestas.codere.es/deportes/#/CasinoPage?category=En%20Vivo",
         text: "RULETA EN VIVO",
       },
       {
-        url: "https://m.apuestas.codere.es/deportes/index.htm#/AviatorPage",
+        url: "https://m.apuestas.codere.es/deportes/#/AviatorPage",
         text: "AVIATOR",
       },
       {
-        url: "https://m.apuestas.codere.es/deportes/index.htm#/PromotionsPage",
+        url: "https://m.apuestas.codere.es/deportes/#/PromotionsPage",
         text: "PROMOCIONES",
       },
       {
