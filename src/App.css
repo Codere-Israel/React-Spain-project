@@ -128,7 +128,23 @@ body {
 	/* padding-top: 0; */
 	padding-left :20px;
 	}
-
+#dropdownMenuBtnInicio > svg > path {
+	fill:#000000 !important;
+	}
+#dropdownMenuBtnInicio:hover  > svg > path {
+	fill:#ffffff !important;
+	}
+#dropdownMenuBtnInicio:active > svg > path {
+	fill:#ffffff !important;
+	}
+#dropdownMenuBtnInicio:hover {
+	text-decoration:none;
+	background-color:#79c000;
+	}
+#dropdownMenuBtnInicio:active, #dropdownMenuBtnInicio.show  {
+	text-decoration:none;
+	background-color:#79c000 !important;
+	}
 .stroke .navbar-nav a,
 .stroke .navbar-nav a:after,
 .stroke .navbar-nav a:before{

@@ -138,7 +138,7 @@ function Header (props) {
 										href={d.url}
 										rel='nofollow'
 									>
-									< Arrowrightw/>
+									{/*< Arrowrightw/>*/}
 										{d.text}
 									</Nav.Link>);
 							})}
@@ -147,7 +147,7 @@ function Header (props) {
 
 					<div className='header-group-right'>
 						<Dropdown>
-							<Dropdown.Toggle className='header_btn'>
+							<Dropdown.Toggle className='header_btn' id={'dropdownMenuBtnInicio'}>
 								<Arrowdown/>
 							</Dropdown.Toggle>
 							<Dropdown.Menu>
