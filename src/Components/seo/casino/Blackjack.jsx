@@ -58,6 +58,7 @@ const Blackjack = (props) => {
   const juegos = {
     id: "juegos",
     h2: "Juegos de BlackJack en Codere ",
+    class: "anchor-target",
     inner: [
       {
         h3: "Cashback blackjack",
@@ -77,6 +78,7 @@ const Blackjack = (props) => {
   const como_jugar = {
     id: "como_jugar",
     h2: "¿Cómo jugar BlackJack Online? ",
+    class: "anchor-target",
     text: "Si esta es la primera vez que vas a probar este juego, lo más importante será que tengas en cuenta cómo se juega y las reglas principales para que tus partidas sean lo más entretenidas posibles. En este juego solo tienes que pensar en un número: Esa cifra tiene que ser el 21 ya que si lo consigues la victoria estará asegurada. El valor de las cartas es muy importante: Del 2 al 10 su valor es dicha cifra, la J, Q o K tienen el valor de 10 y el AS podrá ser usado como 1 u 11. Ahora que ya sabes cómo empezar, es momento de jugar.",
     inner: [
       {
@@ -137,6 +139,7 @@ const Blackjack = (props) => {
   const preguntas = {
     id: "preguntas",
     h2: "Preguntas frecuentes sobre Blackjack",
+    class: "anchor-target",
     inner: [
       {
         h3: "¿Cómo se juega al blackjack?",
@@ -167,7 +170,7 @@ const Blackjack = (props) => {
       id: "como_jugar",
     },
     {
-      title: 'Preguntas frecuentes sobre Blackjack::',
+      title: 'Preguntas frecuentes sobre Blackjack:',
       id: 'preguntas',
     },
   ];
@@ -300,7 +303,7 @@ const Blackjack = (props) => {
           ))}
         </div>
         <div id={preguntas.id} className="mt-4">
-          <h2>{preguntas.h2}</h2>
+          <h2 className={preguntas.class}>{preguntas.h2}</h2>
           <Accordion>
             {preguntas.inner.map((question, k) => (
               <Accordion.Item eventKey={k} key={k}>

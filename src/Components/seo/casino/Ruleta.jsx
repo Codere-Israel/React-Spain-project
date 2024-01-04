@@ -134,8 +134,7 @@ const Ruleta = (props) => {
               <TableOfContents table={table_of_contents_list} />
             ) : null}{" "}
           </div>
-          <a name="anchor1"></a>
-          <h2 className="PageH2TitleSeoPages923 mt-4">
+          <h2 id={'anchor1'} className="PageH2TitleSeoPages923 mt-4">
             Juegos de Ruleta en Codere
           </h2>
           <p className="">
@@ -179,8 +178,7 @@ const Ruleta = (props) => {
               </Accordion.Item>
             ))}
           </Accordion>
-          <a name="anchor2"></a>
-          <h2 className="PageH2TitleSeoPages923">
+          <h2 id={'anchor2'} className="PageH2TitleSeoPages923">
             Conoce las reglas para jugar a la ruleta en línea
           </h2>
           <p className="text982T">
@@ -357,8 +355,8 @@ const Ruleta = (props) => {
               </tr>
             </tbody>
           </Table>
-          <a name="anchor3" />
-          <h2 className="PageH2TitleSeoPages923 mt-4 mb-4">
+
+          <h2 id={'anchor3'} className="PageH2TitleSeoPages923 mt-4 mb-4">
             Opciones de apuestas en la ruleta
           </h2>
           <h3 className="PageH3TitleSeoPages923">Voisins du Zéro.</h3>
@@ -418,8 +416,8 @@ const Ruleta = (props) => {
             así como una ficha en cada una de las siguientes divisiones: 7/8;
             8/9; 17/18 y 28/29.
           </p>
-          <a name="anchor4" />
-          <h2 className="PageH2TitleSeoPages923 mt-4">
+
+          <h2 id={'anchor4'} className="PageH2TitleSeoPages923 mt-4">
             Preguntas frecuentes sobre la Ruleta{" "}
           </h2>
           <Accordion className="content-accordion">
