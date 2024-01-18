@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="container">
           <div className="about">
             <div className="social-media">
-              <ul className="list-inline">
+              <ul className="list-inline codereFooterList-inlineAdds">
                 <li>
                   <a
                     href="https://m.apuestas.codere.es/deportes/#/ContactPage"

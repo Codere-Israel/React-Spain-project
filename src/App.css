@@ -10,29 +10,29 @@
 	src         :url(https://www.codere.es/Spain/assets/fonts/HighSchool-V3.1.ttf);
 	}
 
-body {
-  background-color: #252a30;
-  font-family: "Roboto";
-}
+body{
+	background-color :#252a30;
+	font-family      :"Roboto";
+	}
 
-html {
-  font-size: 16px;
-}
+html{
+	font-size :16px;
+	}
 
 html,
-body {
-  overflow-x: hidden !important;
-}
+body{
+	overflow-x :hidden !important;
+	}
 
-::-webkit-scrollbar {
-  width: 0;
-}
+::-webkit-scrollbar{
+	width :0;
+	}
 
-::-webkit-scrollbar-button {
-  /* border-radius: 5px; */
+::-webkit-scrollbar-button{
+	/* border-radius: 5px; */
 
-  width: 0;
-}
+	width :0;
+	}
 
 /*.inicio  > img {*/
 /*  width: 100% !important;*/
@@ -58,46 +58,46 @@ body {
 
 .cookie-content{
 	font-size :12px;
-  margin: 10px 0 0 !important;
-}
+	margin    :10px 0 0 !important;
+	}
 
-#rcc-confirm-button {
-  display: none;
-}
+#rcc-confirm-button{
+	display :none;
+	}
 
-.cookie-text {
-  padding-left: 14px;
-}
+.cookie-text{
+	padding-left :14px;
+	}
 
-.cookie-text a:hover {
-  color: #79c000;
-}
+.cookie-text a:hover{
+	color :#79c000;
+	}
 
-.cookie-btn-group {
-  margin: 14px 0 0 0;
+.cookie-btn-group{
+	margin :14px 0 0 0;
 	}
 
 .cookie-btn{
-  margin: 0 21px 0 0;
-  border-radius: 25px !important;
-  font-weight: 600;
-  font-size: 0.87rem;
-  padding: 4px 0;
-  min-width: 184px;
-  border: unset;
-}
+	margin        :0 21px 0 0;
+	border-radius :25px !important;
+	font-weight   :600;
+	font-size     :0.87rem;
+	padding       :4px 0;
+	min-width     :184px;
+	border        :unset;
+	}
 
 .gr-cookie,
 .gr-cookie:hover,
-.gr-cookie:active {
+.gr-cookie:active{
 	background-color :#79c000 !important;
 	}
 
 .wh-cookie,
 .wh-cookie:hover,
-.wh-cookie:active {
-  background-color: #fff !important;
-  color: #000 !important;
+.wh-cookie:active{
+	background-color :#fff !important;
+	color            :#000 !important;
 	}
 
 .cookie-overlay{
@@ -128,23 +128,29 @@ body {
 	/* padding-top: 0; */
 	padding-left :20px;
 	}
-#dropdownMenuBtnInicio > svg > path {
-	fill:#000000 !important;
+
+#dropdownMenuBtnInicio > svg > path{
+	fill :#000000 !important;
 	}
-#dropdownMenuBtnInicio:hover  > svg > path {
-	fill:#ffffff !important;
+
+#dropdownMenuBtnInicio:hover > svg > path{
+	fill :#ffffff !important;
 	}
-#dropdownMenuBtnInicio:active > svg > path {
-	fill:#ffffff !important;
+
+#dropdownMenuBtnInicio:active > svg > path{
+	fill :#ffffff !important;
 	}
-#dropdownMenuBtnInicio:hover {
-	text-decoration:none;
-	background-color:#79c000;
+
+#dropdownMenuBtnInicio:hover{
+	text-decoration  :none;
+	background-color :#79c000;
 	}
-#dropdownMenuBtnInicio:active, #dropdownMenuBtnInicio.show  {
-	text-decoration:none;
-	background-color:#79c000 !important;
+
+#dropdownMenuBtnInicio:active, #dropdownMenuBtnInicio.show{
+	text-decoration  :none;
+	background-color :#79c000 !important;
 	}
+
 .stroke .navbar-nav a,
 .stroke .navbar-nav a:after,
 .stroke .navbar-nav a:before{
@@ -205,10 +211,11 @@ body {
 
 /* DropDown */
 
-.dropdown-item:active {
-  color: #000;
-  background-color: #fff !important;
-}
+.dropdown-item:active{
+	color            :#000;
+	background-color :#fff !important;
+	}
+
 /* .btn-check:active + .btn-primary,
 .btn-check:checked + .btn-primary,
 .btn-primary.active,
@@ -952,7 +959,8 @@ img.game_logo:hover{
 	}
 
 .accordion-button:after{
-	background-image :url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+	background-image :url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg'  viewBox='0 0 32 32' fill='%23ffffff'><path fill-rule='evenodd' d='M16 24.773l14.613-14.613-2.907-2.933-11.707 11.707-11.707-11.707-2.907 2.933z'/></svg>") !important;
+	width            :1.5rem;
 	}
 
 .hamb-accordion{
@@ -1033,6 +1041,14 @@ footer.nb-footer .about .social-media{
 	width            :46px;
 	}
 
+.about .social-media ul li a > svg{
+	width :1.5vw;
+	}
+.codereFooterList-inlineAdds {
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	}
 .list-inline li{
 	display      :inline-flex;
 	padding-left :1vw;
@@ -1164,25 +1180,26 @@ footer.nb-footer .footer-info-single p{
 
 /* Mobile */
 @media only screen and (max-width :767px){
-  .cookie-btn-group {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 10px auto;
-    gap: 10px;
-    width: 55%;
-  }
+	.cookie-btn-group{
+		display         :flex;
+		flex-wrap       :wrap;
+		justify-content :center;
+		margin          :10px auto;
+		gap             :10px;
+		width           :55%;
+		}
 
 	/* Cookie */
 	.cookie-btn{
-    font-size: 4vw;
-    padding: 0;
-    padding: 2px 0;
-    margin: auto;
-    width: 20%;
-  }
-  .cookie-text {
-    padding-right: 14px;
+		font-size :4vw;
+		padding   :0;
+		padding   :2px 0;
+		margin    :auto;
+		width     :20%;
+		}
+
+	.cookie-text{
+		padding-right :14px;
 		}
 
 	/* End Cookie */
@@ -1564,20 +1581,24 @@ footer.nb-footer .footer-info-single p{
 		}
 
 	/* social */
-	.list-inline {
-		align-items: center;
-		display: flex;
-		justify-content: center;
+	.list-inline{
+		align-items     :center;
+		display         :flex;
+		justify-content :center;
 		}
+
 	.list-inline li{
-		padding-left:5vw;
+		padding-left :5vw;
 		}
+
 	.list-inline li:nth-child(1){
 		padding-left :0;
 		}
-	.about .social-media ul li a>svg{
-		width:7vw;
+
+	.about .social-media ul li a > svg{
+		width :7vw;
 		}
+
 	#legals{
 		display     :flex;
 		width       :100%;
