@@ -42,7 +42,7 @@ body {
 
 .apps a:nth-child(2) img {
   height: 4.5rem !important;
-  width: fit-content !important;
+  width: auto !important;
 }
 .mobileViewAppLogos {
   align-items: center;
