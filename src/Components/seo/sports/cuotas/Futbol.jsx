@@ -21,14 +21,14 @@ export default function Futbol(props) {
     h1: 'Apuestas de fútbol: lo que debes saber a la hora de apostar',
   };
   const apuestas = {
-    id: 'apuestas',
+    id: 'realiza',
     h2: 'Realiza tus apuestas sobre el deporte rey',
     p: 'El fútbol es el deporte más conocido y seguido en todo el mundo. Ningún otro deporte le pisa los talones. Como consecuencia, el fútbol es también el deporte más popular a la hora de apostar. Hacer apuestas deportivas es una manera divertida y potencialmente rentable de añadir algo de emoción a tu experiencia de disfrute de eventos deportivos.',
     p2: 'Si quieres triunfar en el mundo de las apuestas deportivas de fútbol, tendrás que informarte antes. Aunque apostar sobre fútbol puede parecer bastante sencillo, existe una gran diferencia entre realizar apuestas seguras y realizar apuestas por capricho. Si te informas correctamente, conoces los equipos, estudias las estadísticas y te familiarizas con las diferentes opciones de apuestas, incrementarás de forma significativa tus probabilidades de ganar.',
   };
 
   const como_realizar = {
-    id: 'como_realizar',
+    id: 'como_empezar',
     h2: '¿Cómo empezar a realizar apuestas deportivas de fútbol?',
     p: [
       'Antes de siquiera pensar en hacer una apuesta hay varias cosas que debes saber. Una de las cosas más importantes que debes hacer antes de realizar una apuesta es elegir una casa de apuestas de confianza. Si bien muchas casas de apuestas son fiables, siempre hay algunos de los que no te puedes fiar. Gracias a Internet, puedes encontrar fácilmente qué casa de apuestas de fútbol se adapta mejor a tus necesidades.',

@@ -1,19 +1,19 @@
 /* For STG env */
-@font-face {
-  font-family: Codere;
-  src: url(./fonts/HighSchool-V3.1.ttf);
-}
+@font-face{
+	font-family :Codere;
+	src         :url(./fonts/HighSchool-V3.1.ttf);
+	}
 
 /* For PRD */
-@font-face {
-  font-family: Codere;
-  src: url(https://www.codere.es/Spain/assets/fonts/HighSchool-V3.1.ttf);
-}
+@font-face{
+	font-family :Codere;
+	src         :url(https://www.codere.es/Spain/assets/fonts/HighSchool-V3.1.ttf);
+	}
 
-body {
-  background-color: #252a30;
-  font-family: "Roboto";
-}
+body{
+	background-color :#252a30;
+	font-family      :"Roboto";
+	}
 
 html {
   font-size: 16px;
@@ -42,7 +42,7 @@ body {
 
 .apps a:nth-child(2) img {
   height: 4.5rem !important;
-  width: auto !important;
+  width: fit-content !important;
 }
 .mobileViewAppLogos {
   align-items: center;
@@ -125,6 +125,29 @@ body {
   /* padding-top: 0; */
   padding-left: 20px;
 }
+
+#dropdownMenuBtnInicio > svg > path{
+	fill :#000000 !important;
+	}
+
+#dropdownMenuBtnInicio:hover > svg > path{
+	fill :#ffffff !important;
+	}
+
+#dropdownMenuBtnInicio:active > svg > path{
+	fill :#ffffff !important;
+	}
+
+#dropdownMenuBtnInicio:hover{
+	text-decoration  :none;
+	background-color :#79c000;
+	}
+
+#dropdownMenuBtnInicio:active, #dropdownMenuBtnInicio.show{
+	text-decoration  :none;
+	background-color :#79c000 !important;
+	}
+
 .stroke .navbar-nav a,
 .stroke .navbar-nav a:after,
 .stroke .navbar-nav a:before {
@@ -995,11 +1018,18 @@ footer.nb-footer .about .social-media {
   margin-top: 10px;
 }
 
-.about .social-media ul li a {
-  display: inline-block;
-  width: 46px;
-  background-color: #fff;
+.about .social-media ul li a{
+	align-items      :center;
+	background-color :#fff;
+	border           :1px solid hsla(0, 0%, 100%, .3);
+	border-radius    :50%;
+	box-shadow       :0 0 5px 1px hsla(0, 0%, 100%, .71);
+	color            :#79c000;
+	display          :flex;
+	flex-wrap        :nowrap;
+	font-size        :25px;
   height: 46px;
+	justify-content  :center;
   line-height: 45px;
   border-radius: 50%;
   text-decoration: none;
@@ -1010,6 +1040,14 @@ footer.nb-footer .about .social-media {
   box-shadow: 0px 0px 5px 1px rgba(255, 255, 255, 0.71);
 }
 
+.about .social-media ul li a > svg{
+	width :1.5vw;
+	}
+.codereFooterList-inlineAdds {
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	}
 .list-inline li {
   display: inline-flex;
   padding-left: 1vw;
@@ -1246,6 +1284,16 @@ footer.nb-footer .footer-info-single p {
     border-bottom: #fff 1px solid;
     padding: 1vw;
     padding-top: 3vw;
+		display         :flex !important;
+		width           :100%;
+		justify-content :space-between;
+		align-items     :center;
+		}
+
+	.mobMenuSVGwrapper svg{
+		height       :1.6em !important;
+		margin-right :0.5rem;
+		min-width    :36px;
   }
 
   #father a svg:first-child {
@@ -1492,7 +1540,7 @@ footer.nb-footer .footer-info-single p {
 
   .sticky-item {
     display: inline-block;
-    font-size: 4vw;
+    font-size: 4.4vw;
     padding: 2vw 0.5vw 2vw 0.5vw;
     box-shadow: none;
     text-decoration: none;
@@ -1530,6 +1578,12 @@ footer.nb-footer .footer-info-single p {
   }
 
   /* social */
+	.list-inline{
+		align-items     :center;
+		display         :flex;
+		justify-content :center;
+		}
+
   .list-inline li {
     padding-left: 5vw;
   }
@@ -1537,6 +1591,10 @@ footer.nb-footer .footer-info-single p {
   .list-inline li:nth-child(1) {
     padding-left: 0;
   }
+
+	.about .social-media ul li a > svg{
+		width :7vw;
+		}
 
   #legals {
     display: flex;
