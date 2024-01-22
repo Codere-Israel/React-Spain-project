@@ -67,7 +67,7 @@ export default function F1(props) {
     },
     {
       title: 'Conoce la guía definitiva para apostar en las carreras de fórmula 1',
-      id: 'Conoce',
+      id: 'conoce',
     },
     {
       title: 'Preguntas frecuentes sobre la F1',

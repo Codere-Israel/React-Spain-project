@@ -3,16 +3,33 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Col, Container, Nav, Row } from "react-bootstrap";
 
 export default function TableOfContents(props) {
-  const link = (instnace) => {
+  const link = (instance) => {
+    const handleClick = (e) => {
+      e.preventDefault();
+      const headerHeight = 90;
+      const element = document.getElementById(instance.id);
+
+      if (element) {
+        const elementPosition = element.getBoundingClientRect().top + window.pageYOffset;
+        const offsetPosition = elementPosition - headerHeight;
+
+        window.scrollTo({
+          top: offsetPosition,
+          behavior: 'smooth'
+        });
+      }
+    };
+
     return (
-      <div className="_tx flexed-centered">
-        <Nav.Link href={`#${instnace.id}`}>
-          <i></i>
-          {instnace.title}
-        </Nav.Link>
-      </div>
+        <div className="_tx flexed-centered">
+          <Nav.Link href={`#${instance.id}`} onClick={handleClick}>
+            <i></i>
+            {instance.title}
+          </Nav.Link>
+        </div>
     );
   };
+
 
   const regTable = () => {
     return (
