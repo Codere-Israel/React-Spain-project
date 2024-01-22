@@ -1296,9 +1296,9 @@ footer.nb-footer .footer-info-single p {
 		min-width    :36px;
   }
 
-  #father a svg:first-child {
-    margin-right: 3vw;
-  }
+  /*#father a svg:first-child {*/
+  /*  margin-right: 3vw;*/
+  /*}*/
 
   /* Hamburger */
   /* Position and sizing of burger button */
