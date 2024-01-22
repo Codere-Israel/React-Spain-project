@@ -6,6 +6,7 @@ import MySwiper from "./parts/MySwiper";
 import Games from "./parts/Games";
 import Content from "./parts/Content";
 
+
 function Inicio(props) {
   const json1 = {
     "@context": "https://schema.org",

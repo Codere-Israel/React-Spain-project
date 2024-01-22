@@ -1,12 +1,5 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faFacebookF,
-  faInstagram,
-  faYoutube,
-  faXTwitter,
-} from "@fortawesome/free-brands-svg-icons";
-// import React from "react";
-import { faHeadset } from "@fortawesome/free-solid-svg-icons";
+
+import { Facebook, Twitter,Instagram,Youtube, CodereChat } from '../icons';
 
 // Codere Footer \\
 const Footer = () => {
@@ -16,13 +9,13 @@ const Footer = () => {
         <div className="container">
           <div className="about">
             <div className="social-media">
-              <ul className="list-inline">
+              <ul className="list-inline codereFooterList-inlineAdds">
                 <li>
                   <a
                     href="https://m.apuestas.codere.es/deportes/#/ContactPage"
                     rel="nofollow"
                   >
-                    <FontAwesomeIcon icon={faHeadset} />
+                    <CodereChat />
                   </a>
                 </li>
                 <li>
@@ -30,7 +23,7 @@ const Footer = () => {
                     href="https://www.facebook.com/CodereApuestas/"
                     rel="nofollow"
                   >
-                    <FontAwesomeIcon icon={faFacebookF} />
+                    <Facebook />
                   </a>
                 </li>
                 <li>
@@ -38,12 +31,12 @@ const Footer = () => {
                     href="https://www.instagram.com/codereapuestas/"
                     rel="nofollow"
                   >
-                    <FontAwesomeIcon icon={faInstagram} />
+                    <Instagram />
                   </a>
                 </li>
                 <li>
                   <a href="https://twitter.com/@Codereapuestas" rel="nofollow">
-                    <FontAwesomeIcon icon={faXTwitter} />
+                    <Twitter />
                   </a>
                 </li>
                 <li>
@@ -51,7 +44,7 @@ const Footer = () => {
                     href="https://www.youtube.com/channel/UCnHiADE4Tfzg94iTGKx9WOQ"
                     rel="nofollow"
                   >
-                    <FontAwesomeIcon icon={faYoutube} />
+                    <Youtube />
                   </a>
                 </li>
               </ul>
