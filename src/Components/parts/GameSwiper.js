@@ -7,7 +7,7 @@ import "swiper/css/autoplay";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
 function GameSwiper(props) {
-  const GAME_PREFIX = "https://m.apuestas.codere.es/deportes/index.htm#";
+  const GAME_PREFIX = "https://m.apuestas.codere.es/deportes/#";
   const IMAGE_PREFIX = "https://www.codere.es/assets1/games/mobileGames";
 
   return (
@@ -24,7 +24,7 @@ function GameSwiper(props) {
           return (
             <SwiperSlide key={index}>
               <a
-                href={`${GAME_PREFIX}/${item.gameType}?playgame=${item.sponsor} ${item.name}`}
+                href={`${GAME_PREFIX}/${item.gameType}?playgame=${item.sponsor}${item.name}`}
                 rel={"nofollow"}
               >
                 <LazyLoadImage

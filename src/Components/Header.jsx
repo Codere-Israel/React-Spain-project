@@ -24,11 +24,11 @@ function Header (props) {
 	}, {
 		url: 'https://m.apuestas.codere.es/deportes/#/CasinoPage', text: 'Casino', icon: CasinoMenuIcon,
 	}, {
-		url: 'https://m.apuestas.codere.es/deportes/index.htm#/CasinoPage?category=En%20Vivo', text: 'Ruleta en vivo', icon: Ruletasenvivo,
+		url: 'https://m.apuestas.codere.es/deportes/#/CasinoPage?category=En%20Vivo', text: 'Ruleta en vivo', icon: Ruletasenvivo,
 	}, {
-		url: 'https://m.apuestas.codere.es/deportes/index.htm#/AviatorPage', text: 'Aviator', isAviator: true, icon: Aviator,
+		url: 'https://m.apuestas.codere.es/deportes/#/AviatorPage', text: 'Aviator', isAviator: true, icon: Aviator,
 	}, {
-		url: 'https://m.apuestas.codere.es/deportes/index.htm#/PromotionsPage', text: 'Promociones', icon: Promociones,
+		url: 'https://m.apuestas.codere.es/deportes/#/PromotionsPage', text: 'Promociones', icon: Promociones,
 	}, {
 		url: 'https://m.apuestas.codere.es/deportes/#/NearestLocalPage', text: 'Locales', icon: LocalesMenuIcon,
 	}, ];
