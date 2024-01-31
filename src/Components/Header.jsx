@@ -5,7 +5,7 @@ import { elastic as Menu } from 'react-burger-menu';
 import siteData from './data/globalSiteData.json';
 import { Link } from 'react-router-dom';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
-import { Arrowrightw, Arrowdown, Aviator, CasinoMenuIcon, Deportes, Directo, LocalesMenuIcon, Promociones, Ruletasenvivo, Slots } from '../icons';
+import { Arrowrightw, Arrowdown, Aviator, CasinoMenuIcon, Deportes, Directo, LocalesMenuIcon, Promociones, Ruletasenvivo, Slots, Omnichannel } from '../icons';
 
 const LOGO = new Date () <= new Date ("2023-12-30T22:00:00Z") && new Date () >= new Date ("2023-12-01T07:00:00Z") ? "https://www.codere.es/_catalogs/masterpage/codere/img/christmassLogo.gif" : "https://www.codere.es/_catalogs/masterpage/codere/img/logo.svg";
 
@@ -30,7 +30,7 @@ function Header (props) {
 	}, {
 		url: 'https://m.apuestas.codere.es/deportes/#/PromotionsPage', text: 'Promociones', icon: Promociones,
 	}, {
-		url: 'https://m.apuestas.codere.es/deportes/#/NearestLocalPage', text: 'Locales', icon: LocalesMenuIcon,
+		url: 'https://m.apuestas.codere.es/deportes/#/NearestLocalPage', text: 'Locales', icon: Omnichannel,
 	}, ];
 
 
